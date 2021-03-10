@@ -73,7 +73,7 @@ class RootIndex extends React.Component {
           </section>
           <section className="section is-hidden-mobile">
             <div className="container">
-              <h2 className="title">Our Manufacturers</h2>
+              <h2 className="title is-sr-only">Our Manufacturers</h2>
               <div className="columns is-multiline is-variable is-8 is-centered">
                 {manufacturers.map(({ node }) => {
                   return (
@@ -132,7 +132,7 @@ export const pageQuery = graphql`
           slug
           logoImageDark {
             description
-            gatsbyImageData(width: 200, quality: 100)
+            gatsbyImageData(width: 300, quality: 100)
           }
         }
       }

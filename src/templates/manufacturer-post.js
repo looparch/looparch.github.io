@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 import voca from 'voca'
 
 import MdProductPreview from '../components/md-product-preview'
-import FormContact from '../components/form-contact'
+import FormFormspree from '../components/form-formspree'
 import Layout from '../components/layout'
 
 import generateMarkdownProductJSONLD from '../components/SEOProduct/generateMarkdownProductJSONLD'
@@ -17,6 +17,7 @@ class ManufacturerPostTemplate extends React.Component {
     super(props)
 
     const groupedProducts = this.props.data.allMarkdownRemark.groupedProducts
+    const firstGroup = groupedProducts.slice(0, 1)
     let localProductGroups = []
     let uniqueProductGroups = []
     groupedProducts.map((productGroup) => {
@@ -30,7 +31,12 @@ class ManufacturerPostTemplate extends React.Component {
       })
       uniqueProductGroups = [...new Set(localProductGroups)]
     })
-    this.state = { windowHeight: 1000, productGroups: uniqueProductGroups }
+    this.state = {
+      windowHeight: 1000,
+      productGroups: uniqueProductGroups,
+      iterableGroups: firstGroup,
+      groupedProducts,
+    }
   }
 
   scrollToId(id, e) {
@@ -40,6 +46,10 @@ class ManufacturerPostTemplate extends React.Component {
     const el = document.getElementById(id)
     console.log(el.height)
     window.scrollTo(el.offsetLeft, el.offsetTop + el.offsetHeight)
+  }
+
+  componentDidMount() {
+    this.setState({ iterableGroups: this.state.groupedProducts })
   }
 
   render() {
@@ -118,7 +128,7 @@ class ManufacturerPostTemplate extends React.Component {
                 </div>
               </div>
               <div className="column is-marginless">
-                {groupedProducts.map((productGroup, iterator) => {
+                {this.state.iterableGroups.map((productGroup, iterator) => {
                   const groupName = voca.titleCase(
                     productGroup.fieldValue.replace(/\-/g, ' ')
                   )
@@ -191,7 +201,7 @@ class ManufacturerPostTemplate extends React.Component {
                   >
                     <h3 className="title is-size-4">{post.title} Inquiries</h3>
                   </div>
-                  <FormContact
+                  <FormFormspree
                     section={post.title}
                     manufacturers={manufacturers}
                     recaptchaKey={siteMetadata.recaptchaKey}
