@@ -1,82 +1,32 @@
 import React from 'react'
-import { navigate } from 'gatsby'
 import Recaptcha from 'react-google-recaptcha'
 
-function encode(data) {
-  return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&')
-}
-
-class FormContact extends React.Component {
+export default class FormspreeForm extends React.Component {
   constructor(props) {
     super(props)
+    this.submitForm = this.submitForm.bind(this)
+    this.handleRecaptcha = this.handleRecaptcha.bind(this)
     this.state = {
-      name: '',
-      email: '',
-      manufacturer: this.props.section || 'Contact Us',
-      message: '',
-      // 'g-recaptcha-response': null,
+      status: '',
+      'g-recaptcha-response': null,
     }
   }
 
-  componentDidMount() {
-    this.setState({
-      manufacturer: this.props.section || 'Contact Us',
-    })
-  }
-
-  handleChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value })
-  }
-
-  handleRecaptcha = (value) => {
-    this.setState({ 'g-recaptcha-response': value })
-    document.getElementById('recapchta-message').classList.add('is-hidden')
-  }
-
-  handleSubmit = (e) => {
-    const form = e.target
-
-    e.preventDefault()
-
-    // if (!this.state['g-recaptcha-response']) {
-    //   return document
-    //     .getElementById('recapchta-message')
-    //     .classList.remove('is-hidden')
-    // }
-
-    fetch('https://formspree.io/f/mvovekjn', {
-      method: 'POST',
-      headers: { Accept: 'application/json' },
-      data: encode({
-        // 'form-name': form.getAttribute('name'),
-        ...this.state,
-      }),
-    })
-      .then(() => {
-        navigate(form.getAttribute('action'))
-      })
-      .catch((error) => console.log(error))
-  }
-
   render() {
+    const { status } = this.state
     const sectionName = this.props.section || 'Contact Us'
     const manufacturers = this.props.manufacturers.edges
     const recaptchaKey = this.props.recaptchaKey
 
     return (
       <form
-        name="contact"
+        onSubmit={this.submitForm}
+        action="https://formspree.io/f/mvovekjn"
         method="POST"
-        action="/thanks"
-        data-netlify="true"
-        data-netlify-recaptcha="true"
-        onSubmit={this.handleSubmit}
       >
         <div className="field">
           <label className="label" htmlFor="name">
-            Your Name:
+            Your Name*:
           </label>
           <div className="control">
             <input
@@ -85,14 +35,13 @@ class FormContact extends React.Component {
               type="text"
               name="name"
               autoComplete="name"
-              onChange={this.handleChange}
               required
             />
           </div>
         </div>
         <div className="field">
           <label className="label" htmlFor="email">
-            Your Email:
+            Your Email*:
           </label>
           <div className="control">
             <input
@@ -101,7 +50,6 @@ class FormContact extends React.Component {
               type="email"
               name="email"
               autoComplete="email"
-              onChange={this.handleChange}
               required
             />
           </div>
@@ -116,7 +64,6 @@ class FormContact extends React.Component {
                 id="manufacturer"
                 name="manufacturer"
                 defaultValue={sectionName}
-                onChange={this.handleChange}
               >
                 {manufacturers.map(({ node }) => {
                   return (
@@ -138,7 +85,6 @@ class FormContact extends React.Component {
               id="message"
               className="textarea"
               name="message"
-              onChange={this.handleChange}
               placeholder={`Your message...`}
             />
           </div>
@@ -153,7 +99,6 @@ class FormContact extends React.Component {
               className="input"
               type="text"
               name="project_name"
-              onChange={this.handleChange}
             />
           </div>
         </div>
@@ -167,11 +112,10 @@ class FormContact extends React.Component {
               className="input"
               type="text"
               name="project_specifier"
-              onChange={this.handleChange}
             />
           </div>
         </div>
-        {/* <div className="field">
+        <div className="field">
           <Recaptcha
             ref="recaptcha"
             sitekey={recaptchaKey}
@@ -184,17 +128,52 @@ class FormContact extends React.Component {
           >
             Recaptcha is required.
           </div>
-        </div> */}
+        </div>
         <div className="field">
           <div className="control">
-            <button type="submit" className="button is-link">
-              Send
-            </button>
+            {status === 'SUCCESS' ? (
+              <p>Thank you! We'll be in touch shortly.</p>
+            ) : (
+              <button type="submit" className="button is-link">
+                Send
+              </button>
+            )}
           </div>
         </div>
+        {status === 'ERROR' && <p>Ooops! There was an error.</p>}
       </form>
     )
   }
-}
 
-export default FormContact
+  handleRecaptcha = (value) => {
+    this.setState({ 'g-recaptcha-response': value })
+    document.getElementById('recapchta-message').classList.add('is-hidden')
+  }
+
+  submitForm(ev) {
+    ev.preventDefault()
+
+    if (!this.state['g-recaptcha-response']) {
+      return document
+        .getElementById('recapchta-message')
+        .classList.remove('is-hidden')
+    }
+
+    const form = ev.target
+    const data = new FormData(form)
+    data.delete('g-recaptcha-response')
+    const xhr = new XMLHttpRequest()
+    xhr.open(form.method, form.action)
+    xhr.setRequestHeader('Accept', 'application/json')
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return
+      if (xhr.status === 200) {
+        form.reset()
+        this.setState({ status: 'SUCCESS' })
+      } else {
+        this.setState({ status: 'ERROR' })
+      }
+    }
+    xhr.send(data)
+  }
+}
