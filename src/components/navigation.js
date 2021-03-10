@@ -26,6 +26,7 @@ class Navigation extends React.Component {
               <StaticImage
                 src="../images/loop-signature@4x.png"
                 alt="Loop Architectural Materials Logo"
+                placeholder="none"
                 width={271}
                 height={28}
                 quality={100}
