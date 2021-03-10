@@ -79,7 +79,7 @@ class RootIndex extends React.Component {
                   return (
                     <div
                       key={node.slug}
-                      className="column is-inline-block is-one-fifth is-half-tablet is-half-mobile"
+                      className="column is-inline-block is-one-quarter is-half-tablet is-half-mobile mb-4"
                     >
                       <Link to={`/manufacturers/${node.slug}`} hrefLang="en">
                         <GatsbyImage

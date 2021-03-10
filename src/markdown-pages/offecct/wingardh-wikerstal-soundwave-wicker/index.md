@@ -1,0 +1,16 @@
+---
+title: "Soundwave® Wicker"
+description: "Soundwave%AE%20Wicker%2C%20the%20prized%20and%20celebrated%20architects%20Gert%20Wing%E5rdh%20and%20Erik%20Wikerst%E5l%20have%20given%20the%20acoustic%20panel%20its%20perfect%20expression.%20With%20its%20woven%20surface%2C%20Wicker%20gives%20an%20industrial%20product%20with%20supreme%20acoustic%20qualities%20a%20touch%20of%20traditional%20crafts.%0A%0AThe%20origin%20of%20Wicker%20is%20a%20material%20with%20an%20expression%20and%20a%20set%20of%20characteristics%20which%20seems%20to%20be%20exact%20opposite%20of%20those%20of%20an%20acoustic%20panel%3A%20concrete.%20As%20architects%20of%20the%20ongoing%20renovation%20of%20Nationalmuseum%20in%20Stockholm%2C%20Gert%20Wing%E5rdh%20and%20Erik%20Wikerst%E5l%20not%20only%20have%20the%20responsibility%20to%20make%20sure%20that%20the%20prestigious%2019th%20century%20building%20gets%20a%20climate%20that%20the%20art%20treasures%20will%20feel%20comfortable%20in%2C%20they%20also%20had%20to%20design%20an%20extension%20with%20a%20less%20prominent%20but%20very%20important%20function%20%u2013%20the%20safety%20zone%20which%20the%20masterpieces%20for%20the%20exhibitions%20are%20taken%20through%20in%20to%20the%20museum.%0A%0AThe%20task%20gave%20the%20architect%20duo%20the%20possibility%20to%20use%20the%20full%20potential%20of%20pre-cast%20concrete%20to%20give%20the%20building%20both%20a%20strong%20and%20joyful%20expression.%20The%20result%2C%20facades%20with%20a%20woven%20pattern%2C%20carried%20deeper%20abilities%20that%20now%20have%20been%20refined%20in%20to%20a%20product%20in%20Offecct%B4s%20acoustic%20panel%20collection%20Soundwave%AE.%20The%20importance%20of%20good%20acoustics%20is%20something%20that%20Wing%E5rdh%20and%20Wikerst%E5l%2C%20who%20both%20have%20great%20experience%20of%20designing%20auditoriums%20and%20concert%20halls%2C%20are%20well%20acquainted%20with.%0A%0A%u201DWhat%20you%20want%20to%20do%20with%20sound%20is%20to%20send%20it%20in%20different%20directions%u201D%2C%20explains%20Gert%20Wing%E5rdh%2C%20%u201DAnd%20the%20woven%20pattern%20with%20its%20natural%20pockets%20has%20a%20nearly%20ideal%20shape%20for%20an%20absorbent.%u201D%20With%20Soundwave%AE%20Wicker%2C%20Offecct%20initiates%20a%20long%20anticipated%20collaboration%20with%20architect%20Gert%20Wing%E5rdh.%0A%0A%u201DOffecct%20has%20a%20long%20relationship%20with%20Gert%20Wing%E5rdh%20and%20we%20have%20over%20the%20years%20worked%20together%20on%20projects.%20We%20instantly%20recognised%20the%20potential%20for%20an%20acoustic%20panel%20when%20we%20saw%20the%20facade%20during%20a%20recent%20visit%20to%20Nationalmuseum%20and%20at%20that%20moment%20it%20became%20evident%20that%20the%20time%20was%20ready%20to%20make%20our%20first%20product%20together%2C%u201D%20says%20Kurt%20Tingdal%2C%20CEO%20of%20Offecct.%0A%0A"
+image_primary: "img/SOUNDWAVE-WICKER-Acoustic-panels-Wing%C3%A5rdh-Wikerst%C3%A5l-offecct-59013-91-11976.jpg"
+image_secondary: "img/SOUNDWAVE-WICKER-Acoustic-panels-Wing%C3%A5rdh-Wikerst%C3%A5l-offecct-59013-91-11973.jpg"
+href: "https://www.offecct.com/product/soundwave-wicker-acoustic-panel/"
+tags: 
+  - "Offecct"
+  - "Acoustic Panels"
+designer: "Wingårdh & Wikerstål"
+category: "Acoustic Panels"
+subtitle: ""
+manufacturer: "Offecct"
+slug: "/manufacturers/offecct/acoustic-panels/wingardh-wikerstal-soundwave-wicker"
+date: "2021-03-10"
+---
