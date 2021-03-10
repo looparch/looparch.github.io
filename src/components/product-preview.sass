@@ -1,0 +1,22 @@
+.product-preview
+  a
+    color: #4a4a4a
+  h3
+    display: inline-block
+  &.selected
+    h3
+      animation: pulse 3s 1
+      animation-timing-function: ease-in-out
+  .product-preview-image
+    &.fixed
+      max-height: 237px !important
+      max-width: 352px !important
+
+.padded-modal
+  padding: 0 .5rem
+
+@keyframes pulse
+  0%, 100%
+    color: inherit
+  50%
+    color: #0BA24A
