@@ -32,6 +32,7 @@ class ContactPage extends React.Component {
             postNode={postNode}
             pageSEO
             siteMetadata={this.props.data.site.siteMetadata}
+            location={this.props.location}
           />
           <GoogleMap
             API_KEY={this.props.data.site.siteMetadata.mapKey}

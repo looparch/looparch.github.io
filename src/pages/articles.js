@@ -25,10 +25,11 @@ class ArticleIndex extends React.Component {
         <div className="content-section">
           <Helmet title={`${siteTitle} | Articles`} />
           <SEO
+            pageSEO
             pagePath={`articles`}
             postNode={postNode}
-            pageSEO
             siteMetadata={this.props.data.site.siteMetadata}
+            location={this.props.location}
           />
           <section className="section">
             <div className="container">

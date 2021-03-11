@@ -18,7 +18,7 @@ export default function generateMarkdownProductJSONLD(
     ],
     description: `${
       unescape(product.frontmatter.description) ||
-      product.frontmatter.manufacturer ||
+      `${product.frontmatter.manufacturer} - ${product.frontmatter.title}` ||
       ''
     }`,
     sku: `${product.id}`,
@@ -48,7 +48,7 @@ export default function generateMarkdownProductJSONLD(
     },
     offers: {
       '@type': 'Offer',
-      price: '0.00',
+      price: '1.00',
       priceCurrency: 'USD',
       priceValidUntil: '2020-01-01',
       availability: 'InStock',

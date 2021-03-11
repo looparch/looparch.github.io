@@ -7,6 +7,7 @@ import voca from 'voca'
 import MdProductPreview from '../components/md-product-preview'
 import FormFormspree from '../components/form-formspree'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 import generateMarkdownProductJSONLD from '../components/SEOProduct/generateMarkdownProductJSONLD'
 
@@ -42,7 +43,6 @@ class ManufacturerPostTemplate extends React.Component {
   scrollToId(id, e) {
     console.log(id)
     e.stopPropagation()
-    // const container = document.getElementById('manufacturer-post')
     const el = document.getElementById(id)
     console.log(el.height)
     window.scrollTo(el.offsetLeft, el.offsetTop + el.offsetHeight)
@@ -65,6 +65,12 @@ class ManufacturerPostTemplate extends React.Component {
     return (
       <Layout>
         <Helmet title={`${post.title} | ${siteTitle}`} />
+        <SEO
+          pagePath={`manufacturers/${post.slug}`}
+          siteMetadata={siteMetadata}
+          postNode={post}
+          location={this.props.location}
+        />
 
         <h1 className="is-sr-only">{`${post.title} | ${siteTitle}`}</h1>
         <section className="section" id="manufacturer-post">
@@ -168,11 +174,6 @@ class ManufacturerPostTemplate extends React.Component {
                             className="column is-inline-block is-one-third-desktop is-half-tablet is-half-mobile"
                             style={{ zIndex: '500' }}
                           >
-                            <Helmet>
-                              <script type="application/ld+json">
-                                {JSON.stringify(jsonLd)}
-                              </script>
-                            </Helmet>
                             <MdProductPreview
                               product={fm}
                               post={post}

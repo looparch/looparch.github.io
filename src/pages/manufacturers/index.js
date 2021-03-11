@@ -32,6 +32,7 @@ class ManufacturersIndex extends React.Component {
             postNode={postNode}
             pageSEO
             siteMetadata={this.props.data.site.siteMetadata}
+            location={this.props.location}
           />
           <section className="section">
             <div className="container">

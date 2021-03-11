@@ -23,6 +23,7 @@ try {
 }
 
 module.exports = {
+  pathPrefix: '/looparch_contentful',
   flags: {
     FAST_DEV: true,
     PARALLEL_SOURCING: true,
@@ -35,9 +36,9 @@ module.exports = {
     mapKey: process.env.LOOPARCH_MAPS_KEY || '',
     placeId: process.env.LOOPARCH_PLACE_ID || '',
     recaptchaKey: process.env.SITE_RECAPTCHA_KEY || '',
-    shareImageWidth: 600,
-    shareImageHeight: 60,
-    shareImage: '/images/loop-signature-share.png',
+    shareImageWidth: 112,
+    shareImageHeight: 112,
+    shareImage: '/images/logo.png',
     publisher: 'Loop Architectural Materials',
     author: 'Loop Architectural Materials',
   },

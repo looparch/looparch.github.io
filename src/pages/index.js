@@ -30,6 +30,7 @@ class RootIndex extends React.Component {
             postNode={postNode}
             pageSEO
             siteMetadata={this.props.data.site.siteMetadata}
+            location={this.props.location}
           />
           <Helmet title={siteTitle}>
             <meta property="og:type" content="website" />

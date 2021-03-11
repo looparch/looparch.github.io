@@ -25,14 +25,14 @@ class BlogPostTemplate extends React.Component {
       <Layout>
         <div className="article content-section">
           <Helmet title={`${post.title} | ${siteTitle}`} />
-          <Helmet>
+          {/* <Helmet>
             <script
               type="text/javascript"
               async
               defer
               src="//assets.pinterest.com/js/pinit.js"
             ></script>
-          </Helmet>
+          </Helmet> */}
           <SEO
             pagePath={`articles/${post.slug}`}
             postNode={post}
@@ -43,7 +43,7 @@ class BlogPostTemplate extends React.Component {
           />
           <div className="section">
             <div className="container content">
-              <h1 className="title is-size-1">{post.title}</h1>
+              <h1 className="title is-size-2">{post.title}</h1>
               <GatsbyImage
                 image={post.heroImage.gatsbyImageData}
                 alt={post.heroImage.title}

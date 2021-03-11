@@ -1,10 +1,38 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { getSrc } from 'gatsby-plugin-image'
+import { titleCase } from 'voca'
 
 class SEO extends React.Component {
   constructor(props) {
     super(props)
+  }
+
+  getBreadcrumbsFromLocation(location) {
+    if (location.pathname === '/') return
+    const splitLocation = location.pathname.split('/')
+    const breadcrumbObj = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [],
+    }
+    splitLocation.forEach((element, index) => {
+      let pathnameBuild = ''
+
+      if (element !== '') {
+        pathnameBuild = `${pathnameBuild}/${element}`
+        breadcrumbObj.itemListElement.push({
+          '@type': 'ListItem',
+          position: index,
+          item: {
+            '@id': `${location.origin}/${pathnameBuild}`,
+            name: titleCase(element.replace(/\-/g, ' ')),
+          },
+        })
+      }
+    })
+
+    return breadcrumbObj
   }
 
   render() {
@@ -17,7 +45,6 @@ class SEO extends React.Component {
       customTitle,
       siteMetadata,
       location,
-      products,
     } = this.props
     const siteImage = `${siteMetadata.siteUrl}${siteMetadata.shareImage}`
     let title
@@ -36,6 +63,8 @@ class SEO extends React.Component {
     imgWidth = siteMetadata.shareImageWidth
     imgHeight = siteMetadata.shareImageHeight
     pageUrl = siteMetadata.siteUrl
+
+    const breadcrumbJson = this.getBreadcrumbsFromLocation(location)
 
     if (customTitle) {
       title = postNode.title
@@ -130,74 +159,41 @@ class SEO extends React.Component {
           'https://www.pinterest.com/looparchitecturalmaterials',
         ],
       },
+      breadcrumbJson,
     ]
 
     // Blog Post Schema
     if (postSEO) {
-      schemaOrgJSONLD.push(
-        {
-          '@context': 'http://schema.org',
-          '@type': 'BreadcrumbList',
-          itemListElement: [
-            {
-              '@type': 'ListItem',
-              position: 1,
-              item: {
-                '@id': siteMetadata.siteUrl,
-                name: siteMetadata.title,
-              },
-            },
-            {
-              '@type': 'ListItem',
-              position: 2,
-              item: {
-                '@id': `${siteMetadata.siteUrl}/${
-                  this.props.pagePath.split('/')[0]
-                }/`,
-                name: `${this.props.pagePath.split('/')[0]}`,
-              },
-            },
-            {
-              '@type': 'ListItem',
-              position: 3,
-              item: {
-                '@id': pageUrl,
-                name: title,
-              },
-            },
-          ],
+      schemaOrgJSONLD.push({
+        '@context': 'http://schema.org',
+        '@type': 'NewsArticle',
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          url: pageUrl,
         },
-        {
-          '@context': 'http://schema.org',
-          '@type': 'NewsArticle',
-          mainEntityOfPage: {
-            '@type': 'WebPage',
-            url: pageUrl,
+        headline: title,
+        image: [image],
+        datePublished: postNode.publishDate,
+        dateModified: dateModified,
+        author: {
+          '@type': 'Person',
+          name: siteMetadata.publisher,
+          url: siteMetadata.siteUrl,
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: siteMetadata.publisher,
+          url: siteMetadata.siteUrl,
+          logo: {
+            '@type': 'ImageObject',
+            name: 'Loop Architectural Materials Logo',
+            width: `600`,
+            height: `60`,
+            url: `${siteMetadata.siteUrl}${siteMetadata.shareImage}`,
           },
-          headline: title,
-          image: [image],
-          datePublished: postNode.publishDate,
-          dateModified: dateModified,
-          author: {
-            '@type': 'Person',
-            name: siteMetadata.publisher,
-            url: siteMetadata.siteUrl,
-          },
-          publisher: {
-            '@type': 'Organization',
-            name: siteMetadata.publisher,
-            url: siteMetadata.siteUrl,
-            logo: {
-              '@type': 'ImageObject',
-              name: 'Loop Architectural Materials Logo',
-              width: `600`,
-              height: `60`,
-              url: `${siteMetadata.siteUrl}${siteMetadata.shareImage}`,
-            },
-          },
-          description: postNode.description.childMarkdownRemark.html,
-        }
-      )
+        },
+        description: postNode.description.childMarkdownRemark.html,
+      })
     }
 
     // Page SEO Schema
@@ -205,59 +201,9 @@ class SEO extends React.Component {
       schemaOrgJSONLD.push({
         '@context': 'http://schema.org',
         '@type': 'WebPage',
-        url: pageUrl,
+        url: location.href,
         name: title,
         description: description,
-      })
-    }
-
-    if (products) {
-      products.forEach((edge) => {
-        const product = edge.node
-        schemaOrgJSONLD.push({
-          '@context': 'http://schema.org',
-          '@type': 'Product',
-          name: product.title,
-          image: [`https:${product.productImage.file.url}`],
-          description: `${
-            product.description
-              ? product.description.childMarkdownRemark.html
-              : ''
-          } - Inquire for pricing`,
-          sku: `${product.contentful_id}`,
-          mpn: `${product.contentful_id}`,
-          review: {
-            '@type': 'Review',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5',
-              bestRating: '5',
-            },
-            author: {
-              '@type': 'Person',
-              name: siteMetadata.publisher,
-              url: siteMetadata.siteUrl,
-            },
-          },
-          aggregateRating: {
-            '@type': 'AggregateRating',
-            ratingValue: '5',
-            reviewCount: '1',
-          },
-          brand: {
-            '@type': 'Brand',
-            name: postNode.title,
-            logo: `https:${postNode.heroImage.fixed.src}`,
-          },
-          offers: {
-            '@type': 'Offer',
-            price: '0.00',
-            priceCurrency: 'USD',
-            priceValidUntil: '2020-01-01',
-            availability: 'InStock',
-            url: `${pageUrl}`,
-          },
-        })
       })
     }
 

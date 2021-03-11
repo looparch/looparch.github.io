@@ -12,22 +12,7 @@ class ArticlePreview extends React.Component {
     const siteMetadata = this.props.siteMetadata
 
     return (
-      <div
-        className="article-preview box"
-        itemScope
-        itemType="http://schema.org/Article"
-      >
-        <meta
-          itemProp="url"
-          content={`${siteMetadata.siteUrl}/articles/${article.slug}/`}
-        />
-        <meta itemProp="name" content={article.title} />
-        <meta itemProp="author" content="Loop Architectural Materials" />
-        <meta itemProp="image" content={article.heroImage.file.url} />
-        <meta
-          itemProp="description"
-          content={article.description.childMarkdownRemark.html}
-        />
+      <article className="article-preview box">
         <Link
           to={`/articles/${article.slug}`}
           hrefLang="en"
@@ -44,7 +29,7 @@ class ArticlePreview extends React.Component {
             {article.body.childMarkdownRemark.excerpt}
           </p>
         </Link>
-      </div>
+      </article>
     )
   }
 }
