@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
-import voca from 'voca'
+import { truncate } from 'voca'
 
 import styles from './product-preview.sass'
 
@@ -29,7 +29,7 @@ class MdProductPreviewTemplate extends React.Component {
       <article className={`product-preview ${post.slug}`} id={product.title}>
         <Link to={product.slug} hrefLang="en" rel="help">
           <div>{VariableImage}</div>
-          <h3 className="is-size-6">{voca.truncate(product.title, 22)}</h3>
+          <h3 className="is-size-6">{truncate(product.title, 22)}</h3>
         </Link>
       </article>
     )

@@ -2,7 +2,6 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Container from '../components/container'
 import Navigation from '../components/navigation'
 import Footer from '../components/footer.js'
 
