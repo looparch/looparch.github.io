@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import { graphql } from 'gatsby'
-import voca from 'voca'
+import { titleCase } from 'voca'
 
 import MdProductPreview from '../components/md-product-preview'
 import FormFormspree from '../components/form-formspree'
@@ -22,9 +22,7 @@ class ManufacturerPostTemplate extends React.Component {
     let localProductGroups = []
     let uniqueProductGroups = []
     groupedProducts.map((productGroup) => {
-      const groupName = voca.titleCase(
-        productGroup.fieldValue.replace(/\-/g, ' ')
-      )
+      const groupName = titleCase(productGroup.fieldValue.replace(/\-/g, ' '))
 
       localProductGroups.push({
         name: groupName,
@@ -135,7 +133,7 @@ class ManufacturerPostTemplate extends React.Component {
               </div>
               <div className="column is-marginless">
                 {this.state.iterableGroups.map((productGroup, iterator) => {
-                  const groupName = voca.titleCase(
+                  const groupName = titleCase(
                     productGroup.fieldValue.replace(/\-/g, ' ')
                   )
                   return (

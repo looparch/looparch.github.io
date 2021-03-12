@@ -44,15 +44,14 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-image',
-    'gatsby-plugin-glamor',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
-      resolve: 'gatsby-plugin-netlify-cache',
+      resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
       options: {
-        cachePublic: true,
+        devMode: true,
       },
     },
     {
@@ -252,6 +251,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
   ],
 }
