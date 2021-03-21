@@ -46,14 +46,5 @@ export const pageQuery = graphql`
         title
       }
     }
-    allContentfulManufacturer {
-      edges {
-        node {
-          id
-          title
-          slug
-        }
-      }
-    }
   }
 `

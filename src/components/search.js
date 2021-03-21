@@ -64,27 +64,12 @@ export default class Search extends Component {
           </div>
         </div>
         {this.state.results.map((result) => {
-          let manufacturer
-          let title = result.title
-          let baseLink
-
-          switch (result.type) {
-            case 'ContentfulManufacturer':
-              baseLink = `/manufacturers/${result.slug}`
-              break
-            case 'ContentfulBlogPost':
-              baseLink = `/articles/${result.slug}`
-              break
-            case 'MarkdownRemark':
-              baseLink = `${result.slug}`
-              break
-            default:
-              baseLink = ''
-          }
           return (
             <div key={result.id} className="search-result">
-              <Link to={`${baseLink}`}>
-                <h3 className="is-inline-block subtitle is-size-5">{title}</h3>
+              <Link to={`${result.slug}`}>
+                <h3 className="is-inline-block subtitle is-size-5">
+                  {result.title}
+                </h3>
               </Link>
               <div
                 className="tags is-inline-block"

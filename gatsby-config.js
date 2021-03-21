@@ -51,7 +51,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
       options: {
-        devMode: true,
+        devMode: false,
       },
     },
     {
@@ -215,39 +215,35 @@ module.exports = {
           },
         ],
         fields: [
-          { name: 'title', store: true, attributes: { boost: 20 } },
-          { name: 'tag', store: true },
-          { name: 'tags', store: true },
-          { name: 'type', store: true },
-          { name: 'slug', store: true },
-          { name: 'manufacturer', store: true },
-          { name: 'manufacturerTitle', store: true },
           { name: 'id', store: true },
+          { name: 'title', store: true },
+          { name: 'tags', store: true, attributes: { boost: 100 } },
+          { name: 'slug', store: true },
         ],
         resolvers: {
           ContentfulManufacturer: {
             id: (node) => node.id,
             title: (node) => node.title,
             tags: (node) => node.tags,
-            type: (node) => node.internal.type,
-            slug: (node) => node.slug,
+            slug: (node) => `/manufacturers/${node.slug}`,
           },
           ContentfulBlogPost: {
             id: (node) => node.id,
             title: (node) => node.title,
             tags: (node) => node.tags,
-            type: (node) => node.internal.type,
-            slug: (node) => node.slug,
+            slug: (node) => `/articles/${node.slug}`,
           },
           MarkdownRemark: {
             id: (node) => node.id,
             title: (node) => node.frontmatter.title,
             tags: (node) => node.frontmatter.tags,
-            type: (node) => node.internal.type,
             slug: (node) => node.frontmatter.slug,
           },
         },
         filename: 'search_index.json',
+        fetchOptions: {
+          credentials: 'same-origin',
+        },
       },
     },
     `gatsby-plugin-offline`,
