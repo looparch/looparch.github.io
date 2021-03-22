@@ -124,7 +124,10 @@ module.exports = {
         background_color: '#ffffff',
         theme_color: '#0BA24A',
         display: 'standalone',
-        icon: 'src/images/logo.png', // This path is relative to the root of the site.
+        icon: 'src/images/logo.png',
+        icon_options: {
+          purpose: `any maskable`,
+        },
       },
     },
     {
