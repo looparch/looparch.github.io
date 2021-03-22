@@ -43,6 +43,33 @@ module.exports = {
     author: 'Loop Architectural Materials',
   },
   plugins: [
+    {
+      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
+      options: {
+        // Fields to index
+        fields: [`title`, `tags`],
+        // How to resolve each field`s value for a supported node type
+        resolvers: {
+          ContentfulManufacturer: {
+            title: (node) => node.title,
+            tags: (node) => node.tags,
+            path: (node) => `/manufacturers/${node.slug}`,
+          },
+          ContentfulBlogPost: {
+            title: (node) => node.title,
+            tags: (node) => node.tags,
+            path: (node) => `/articles/${node.slug}`,
+          },
+          MarkdownRemark: {
+            title: (node) => node.frontmatter.title,
+            tags: (node) => node.frontmatter.tags,
+            path: (node) => node.frontmatter.slug,
+          },
+        },
+        // Optional filter to limit indexed nodes
+        // filter: (node, getNode) => node.frontmatter.tags !== 'exempt',
+      },
+    },
     'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
@@ -203,49 +230,49 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-lunr',
-      options: {
-        languages: [
-          {
-            name: 'en',
-            filterNodes: (node) => {
-              return node
-            },
-          },
-        ],
-        fields: [
-          { name: 'id', store: true },
-          { name: 'title', store: true },
-          { name: 'tags', store: true, attributes: { boost: 100 } },
-          { name: 'slug', store: true },
-        ],
-        resolvers: {
-          ContentfulManufacturer: {
-            id: (node) => node.id,
-            title: (node) => node.title,
-            tags: (node) => node.tags,
-            slug: (node) => `/manufacturers/${node.slug}`,
-          },
-          ContentfulBlogPost: {
-            id: (node) => node.id,
-            title: (node) => node.title,
-            tags: (node) => node.tags,
-            slug: (node) => `/articles/${node.slug}`,
-          },
-          MarkdownRemark: {
-            id: (node) => node.id,
-            title: (node) => node.frontmatter.title,
-            tags: (node) => node.frontmatter.tags,
-            slug: (node) => node.frontmatter.slug,
-          },
-        },
-        filename: 'search_index.json',
-        fetchOptions: {
-          credentials: 'same-origin',
-        },
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-lunr',
+    //   options: {
+    //     languages: [
+    //       {
+    //         name: 'en',
+    //         filterNodes: (node) => {
+    //           return node
+    //         },
+    //       },
+    //     ],
+    //     fields: [
+    //       { name: 'id', store: true },
+    //       { name: 'title', store: true },
+    //       { name: 'tags', store: true, attributes: { boost: 100 } },
+    //       { name: 'slug', store: true },
+    //     ],
+    //     resolvers: {
+    //       ContentfulManufacturer: {
+    //         id: (node) => node.id,
+    //         title: (node) => node.title,
+    //         tags: (node) => node.tags,
+    //         slug: (node) => `/manufacturers/${node.slug}`,
+    //       },
+    //       ContentfulBlogPost: {
+    //         id: (node) => node.id,
+    //         title: (node) => node.title,
+    //         tags: (node) => node.tags,
+    //         slug: (node) => `/articles/${node.slug}`,
+    //       },
+    //       MarkdownRemark: {
+    //         id: (node) => node.id,
+    //         title: (node) => node.frontmatter.title,
+    //         tags: (node) => node.frontmatter.tags,
+    //         slug: (node) => node.frontmatter.slug,
+    //       },
+    //     },
+    //     filename: 'search_index.json',
+    //     fetchOptions: {
+    //       credentials: 'same-origin',
+    //     },
+    //   },
+    // },
     `gatsby-plugin-offline`,
   ],
 }

@@ -3,8 +3,7 @@ import Layout from '../components/layout'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 
-import Search from '../components/search'
-
+import SearchComponent from '../components/search'
 class SearchPage extends React.Component {
   constructor(props) {
     super(props)
@@ -24,11 +23,7 @@ class SearchPage extends React.Component {
                 Try typing a term in the search box to find something. For
                 example: 'wood' or 'acoustic'.
               </p>
-              <Search
-                data={this.props.data}
-                search={this.props.location.search}
-                lng="en"
-              />
+              <SearchComponent />
             </div>
           </section>
         </div>
