@@ -163,53 +163,51 @@ class SEO extends React.Component {
 
     // Blog Post Schema
     if (postSEO) {
-      schemaOrgJSONLD.push(
-        {
-          '@context': 'http://schema.org',
-          '@type': 'NewsArticle',
-          mainEntityOfPage: {
-            '@type': 'WebPage',
-            url: pageUrl,
-          },
-          headline: title,
-          image: [image],
-          datePublished: postNode.publishDate,
-          dateModified: dateModified,
-          author: {
-            '@type': 'Person',
-            name: siteMetadata.publisher,
-            url: siteMetadata.siteUrl,
-          },
-          publisher: {
-            '@type': 'Organization',
-            name: siteMetadata.publisher,
-            url: siteMetadata.siteUrl,
-            logo: {
-              '@type': 'ImageObject',
-              name: 'Loop Architectural Materials Logo',
-              width: `600`,
-              height: `60`,
-              url: `${siteMetadata.siteUrl}${siteMetadata.shareImage}`,
-            },
-          },
-          description: postNode.description.childMarkdownRemark.html,
+      schemaOrgJSONLD.push({
+        '@context': 'http://schema.org',
+        '@type': 'NewsArticle',
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          url: pageUrl,
         },
-        breadcrumbJson
-      )
+        headline: title,
+        image: [image],
+        datePublished: postNode.publishDate,
+        dateModified: dateModified,
+        author: {
+          '@type': 'Person',
+          name: siteMetadata.publisher,
+          url: siteMetadata.siteUrl,
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: siteMetadata.publisher,
+          url: siteMetadata.siteUrl,
+          logo: {
+            '@type': 'ImageObject',
+            name: 'Loop Architectural Materials Logo',
+            width: `600`,
+            height: `60`,
+            url: `${siteMetadata.siteUrl}${siteMetadata.shareImage}`,
+          },
+        },
+        description: postNode.description.childMarkdownRemark.html,
+      })
     }
 
     // Page SEO Schema
     if (pageSEO) {
-      schemaOrgJSONLD.push(
-        {
-          '@context': 'http://schema.org',
-          '@type': 'WebPage',
-          url: location.href,
-          name: title,
-          description: description,
-        },
-        breadcrumbJson
-      )
+      schemaOrgJSONLD.push({
+        '@context': 'http://schema.org',
+        '@type': 'WebPage',
+        url: location.href,
+        name: title,
+        description: description,
+      })
+    }
+
+    if (breadcrumbJson) {
+      schemaOrgJSONLD.push(breadcrumbJson)
     }
 
     return (
