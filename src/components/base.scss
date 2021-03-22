@@ -8,23 +8,12 @@ $radius-small: 0px;
 $radius: 0px;
 $radius-large: 0px;
 $navbar-height: 4rem;
-$primary: #0BA24A;
+$primary: #3b7441;
 $link: $primary;
 $white-bis: hsl(0, 0%, 98%) !default;
 $modal-content-width: 800px;
 
-// All of bulma
-// @import '~bulma/bulma';
-
-// @import "sass/utilities/_all"
-// @import "sass/base/_all"
-// @import "sass/elements/_all"
-// @import "sass/form/_all"
-// @import "sass/components/_all"
-// @import "sass/grid/_all"
-// @import "sass/helpers/_all"
-// @import "sass/layout/_all"
-
+// Bulma
 // Utilities
 @import '~bulma/sass/utilities/_all';
 
