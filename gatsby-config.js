@@ -230,49 +230,6 @@ module.exports = {
         ],
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-lunr',
-    //   options: {
-    //     languages: [
-    //       {
-    //         name: 'en',
-    //         filterNodes: (node) => {
-    //           return node
-    //         },
-    //       },
-    //     ],
-    //     fields: [
-    //       { name: 'id', store: true },
-    //       { name: 'title', store: true },
-    //       { name: 'tags', store: true, attributes: { boost: 100 } },
-    //       { name: 'slug', store: true },
-    //     ],
-    //     resolvers: {
-    //       ContentfulManufacturer: {
-    //         id: (node) => node.id,
-    //         title: (node) => node.title,
-    //         tags: (node) => node.tags,
-    //         slug: (node) => `/manufacturers/${node.slug}`,
-    //       },
-    //       ContentfulBlogPost: {
-    //         id: (node) => node.id,
-    //         title: (node) => node.title,
-    //         tags: (node) => node.tags,
-    //         slug: (node) => `/articles/${node.slug}`,
-    //       },
-    //       MarkdownRemark: {
-    //         id: (node) => node.id,
-    //         title: (node) => node.frontmatter.title,
-    //         tags: (node) => node.frontmatter.tags,
-    //         slug: (node) => node.frontmatter.slug,
-    //       },
-    //     },
-    //     filename: 'search_index.json',
-    //     fetchOptions: {
-    //       credentials: 'same-origin',
-    //     },
-    //   },
-    // },
     `gatsby-plugin-offline`,
   ],
 }
