@@ -44,6 +44,16 @@ export default ({ children }) => (
     render={(data) => (
       <>
         <Helmet>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-K0P3YM92N9"
+          />
+          <script>{`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-K0P3YM92N9');
+          `}</script>
           <html className="has-navbar-fixed-top" lang="en" />
           <meta
             name="p:domain_verify"

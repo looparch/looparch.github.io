@@ -38,10 +38,12 @@ class ProductTemplate extends React.Component {
           title={`${frontmatter.manufacturer} ${frontmatter.title} | ${site.siteMetadata.title}`}
         />
         <SEO
+          productSEO
           pagePath={`manufacturers/${manufacturer.slug}`}
           siteMetadata={site.siteMetadata}
           postNode={manufacturer}
           location={this.props.location}
+          product={frontmatter}
         />
         <Helmet>
           <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>

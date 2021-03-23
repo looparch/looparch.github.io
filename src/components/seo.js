@@ -41,10 +41,12 @@ class SEO extends React.Component {
       pagePath,
       postSEO,
       pageSEO,
+      productSEO,
       articleSEO,
       customTitle,
       siteMetadata,
       location,
+      product,
     } = this.props
     const siteImage = `${siteMetadata.siteUrl}${siteMetadata.shareImage}`
     let title
@@ -74,7 +76,7 @@ class SEO extends React.Component {
     // Replace with Page Parameters if post or page
     if (postSEO || pageSEO) {
       title = postNode.title
-      description = postNode.description.internal.content.split('\n')[0]
+      description = postNode.description.internal.content
       if (pagePath.length > 1) {
         pageUrl = siteMetadata.siteUrl + '/' + pagePath + '/'
       } else {
@@ -88,6 +90,21 @@ class SEO extends React.Component {
       imgHeight = postNode.heroImage.gatsbyImageData.height
       dateModified = postNode.publishDate
       pageUrl = `${siteMetadata.siteUrl}/${pagePath}/`
+    }
+
+    if (productSEO) {
+      description =
+        product.description === ''
+          ? `${product.manufacturer} product`
+          : product.description
+      image = `${siteMetadata.siteUrl}${getSrc(
+        product.image_primary.childImageSharp.gatsbyImageData
+      )}`
+      imgWidth = product.image_primary.childImageSharp.gatsbyImageData.width
+      imgHeight = product.image_primary.childImageSharp.gatsbyImageData.height
+      dateModified = postNode.publishDate
+      pageUrl = `${siteMetadata.siteUrl}${product.slug}`
+      title = `${product.manufacturer} - ${product.title}`
     }
 
     // Default Website Schema

@@ -64,6 +64,7 @@ class ManufacturerPostTemplate extends React.Component {
       <Layout>
         <Helmet title={`${post.title} | ${siteTitle}`} />
         <SEO
+          pageSEO
           pagePath={`manufacturers/${post.slug}`}
           siteMetadata={siteMetadata}
           postNode={post}

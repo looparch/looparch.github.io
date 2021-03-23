@@ -153,13 +153,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-tagmanager`,
-      options: {
-        id: process.env.LOOPARCH_TAG_MANAGER_ID,
-        includeInDevelopment: false,
-      },
-    },
-    {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: process.env.SITE_URL || 'https://looparch.com',
