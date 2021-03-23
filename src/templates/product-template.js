@@ -152,10 +152,11 @@ export const pageQuery = graphql`
     }
     site {
       siteMetadata {
-        title
-        siteUrl
         publisher
         shareImage
+        siteUrl
+        title
+        userTwitter
       }
     }
   }

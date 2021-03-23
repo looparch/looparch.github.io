@@ -39,10 +39,8 @@ class ManufacturerPostTemplate extends React.Component {
   }
 
   scrollToId(id, e) {
-    console.log(id)
     e.stopPropagation()
     const el = document.getElementById(id)
-    console.log(el.height)
     window.scrollTo(el.offsetLeft, el.offsetTop + el.offsetHeight)
   }
 
@@ -133,7 +131,7 @@ class ManufacturerPostTemplate extends React.Component {
                 </div>
               </div>
               <div className="column is-marginless">
-                {this.state.iterableGroups.map((productGroup, iterator) => {
+                {this.state.groupedProducts.map((productGroup, iterator) => {
                   const groupName = titleCase(
                     productGroup.fieldValue.replace(/\-/g, ' ')
                   )
@@ -290,14 +288,15 @@ export const pageQuery = graphql`
     }
     site {
       siteMetadata {
-        title
-        siteUrl
         description
-        shareImage
-        shareImageWidth
-        shareImageHeight
         publisher
         recaptchaKey
+        shareImage
+        shareImageHeight
+        shareImageWidth
+        siteUrl
+        title
+        userTwitter
       }
     }
   }

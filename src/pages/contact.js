@@ -88,16 +88,17 @@ export const pageQuery = graphql`
     }
     site {
       siteMetadata {
-        title
-        siteUrl
         description
-        shareImage
-        shareImageWidth
-        shareImageHeight
-        publisher
         mapKey
         placeId
+        publisher
         recaptchaKey
+        shareImage
+        shareImageHeight
+        shareImageWidth
+        siteUrl
+        title
+        userTwitter
       }
     }
   }

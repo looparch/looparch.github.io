@@ -58,6 +58,8 @@ class SEO extends React.Component {
     let dateModified = new Date()
     let keywords = [postNode.title].concat(postNode.tags)
 
+    console.log(siteMetadata)
+
     // Set Default OpenGraph Parameters for Fallback
     title = siteMetadata.title
     description = siteMetadata.description

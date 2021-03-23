@@ -107,13 +107,14 @@ export const pageQuery = graphql`
     }
     site {
       siteMetadata {
-        title
-        siteUrl
         description
-        shareImage
-        shareImageWidth
-        shareImageHeight
         publisher
+        shareImage
+        shareImageHeight
+        shareImageWidth
+        siteUrl
+        title
+        userTwitter
       }
     }
   }

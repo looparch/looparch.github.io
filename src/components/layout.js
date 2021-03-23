@@ -37,6 +37,7 @@ export default ({ children }) => (
             title
             siteUrl
             description
+            userTwitter
           }
         }
       }
@@ -58,17 +59,6 @@ export default ({ children }) => (
           <meta
             name="p:domain_verify"
             content="166b8bf16af4de614dccd2ea61cb0dc6"
-          />
-          <meta
-            name="description"
-            content={data.site.siteMetadata.description}
-          />
-          <meta property="og:title" content={data.site.siteMetadata.title} />
-          <meta property="og:url" content={data.site.siteMetadata.siteUrl} />
-          <meta property="og:locale" content="en_US" />
-          <meta
-            property="og:site_name"
-            content={data.site.siteMetadata.title}
           />
         </Helmet>
         <Navigation manufacturers={data.allContentfulManufacturer.edges} />

@@ -29,18 +29,19 @@ module.exports = {
     PARALLEL_SOURCING: true,
   },
   siteMetadata: {
-    title: 'Loop Architectural Materials',
-    siteUrl: process.env.SITE_URL || 'https://looparch.com',
+    author: 'Loop Architectural Materials',
     description:
       'Design & technical partner to the Arizona A+D community, Loop Architectural Materials represents leading brands in contract furniture, glass, and architectural/interior design products.',
     mapKey: process.env.LOOPARCH_MAPS_KEY || '',
     placeId: process.env.LOOPARCH_PLACE_ID || '',
-    recaptchaKey: process.env.SITE_RECAPTCHA_KEY || '',
-    shareImageWidth: 112,
-    shareImageHeight: 112,
-    shareImage: '/images/logo.png',
     publisher: 'Loop Architectural Materials',
-    author: 'Loop Architectural Materials',
+    recaptchaKey: process.env.SITE_RECAPTCHA_KEY || '',
+    shareImage: '/images/logo.png',
+    shareImageHeight: 112,
+    shareImageWidth: 112,
+    siteUrl: process.env.SITE_URL || 'https://looparch.com',
+    title: 'Loop Architectural Materials',
+    userTwitter: '@looparch',
   },
   plugins: [
     {
