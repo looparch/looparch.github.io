@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { getSrc } from 'gatsby-plugin-image'
-import { titleCase } from 'voca'
+import titleCase from 'voca/title_case'
 
 class SEO extends React.Component {
   constructor(props) {

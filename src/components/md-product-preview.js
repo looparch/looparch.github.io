@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
-import { truncate } from 'voca'
+import truncate from 'voca/truncate'
 
 import styles from './product-preview.sass'
 

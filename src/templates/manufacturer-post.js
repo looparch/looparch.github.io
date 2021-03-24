@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import { graphql } from 'gatsby'
-import { titleCase } from 'voca'
+import titleCase from 'voca/title_case'
 
 import MdProductPreview from '../components/md-product-preview'
 import FormFormspree from '../components/form-formspree'
