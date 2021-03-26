@@ -8,7 +8,7 @@ tags:
 title: 'Just Because'
 href: 'https://www.areaenvironments.com/order/nh-just-because'
 designer: 'Niki Hare'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/niki-hare-just-because'

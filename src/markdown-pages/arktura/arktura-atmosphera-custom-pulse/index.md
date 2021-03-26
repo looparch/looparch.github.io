@@ -10,7 +10,7 @@ tags:
   - 'Arktura'
   - 'Acoustic'
   - 'Ceiling Baffles'
-category: 'ceiling-baffles'
+category: 'Ceiling Baffles'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/ceiling-baffles/arktura-atmosphera-custom-pulse'
 date: '2021-02-17'

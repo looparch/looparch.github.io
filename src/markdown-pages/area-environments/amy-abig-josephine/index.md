@@ -8,7 +8,7 @@ tags:
 title: 'Josephine'
 href: 'http://www.areaenvironments.com/order/aa-2-josephine'
 designer: 'Amy Abig'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/amy-abig-josephine'

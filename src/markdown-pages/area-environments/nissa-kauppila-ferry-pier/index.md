@@ -8,7 +8,7 @@ tags:
 title: 'Ferry Pier'
 href: 'https://www.areaenvironments.com/order/nk-2-ferry-pier'
 designer: 'Nissa Kauppila'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/nissa-kauppila-ferry-pier'

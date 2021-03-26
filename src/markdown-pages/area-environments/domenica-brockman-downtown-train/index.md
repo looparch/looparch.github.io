@@ -8,7 +8,7 @@ tags:
 title: 'Downtown Train'
 href: 'https://www.areaenvironments.com/order/dmb1'
 designer: 'Domenica Brockman'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/domenica-brockman-downtown-train'

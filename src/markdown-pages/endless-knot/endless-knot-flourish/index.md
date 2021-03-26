@@ -9,7 +9,7 @@ tags:
   - 'Endless Knot'
   - 'Hand-Knotted Rugs'
 title: 'Flourish'
-category: 'hand-knotted-rugs'
+category: 'Hand Knotted Rugs'
 slug: '/manufacturers/endless-knot/hand-knotted-rugs/endless-knot-flourish'
 date: '2021-02-17'
 ---

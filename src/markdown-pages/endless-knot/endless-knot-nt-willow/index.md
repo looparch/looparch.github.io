@@ -9,7 +9,7 @@ tags:
   - 'Endless Knot'
   - 'Hand-Tufted Rugs'
 title: 'Nt – Willow'
-category: 'hand-tufted-rugs'
+category: 'Hand Tufted Rugs'
 slug: '/manufacturers/endless-knot/hand-tufted-rugs/endless-knot-nt-willow'
 date: '2021-02-17'
 ---

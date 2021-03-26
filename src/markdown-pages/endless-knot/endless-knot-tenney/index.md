@@ -10,7 +10,7 @@ tags:
   - 'Omni Collection'
   - 'On Demand Rugs'
 title: 'Tenney'
-category: 'on-demand-rugs'
+category: 'On Demand Rugs'
 slug: '/manufacturers/endless-knot/on-demand-rugs/endless-knot-tenney'
 date: '2021-02-17'
 ---

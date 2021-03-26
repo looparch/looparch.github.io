@@ -8,7 +8,7 @@ tags:
 title: 'Smoke On The Water'
 href: 'http://www.areaenvironments.com/order/kd-smoke-on-the-water'
 designer: 'Karen Darling'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/karen-darling-smoke-on-the-water'

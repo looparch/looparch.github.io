@@ -8,7 +8,7 @@ tags:
 title: 'Wild Geese'
 href: 'https://www.areaenvironments.com/order/lf-7wildgeese'
 designer: 'Lesley Frenz'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/lesley-frenz-wild-geese'

@@ -11,7 +11,7 @@ tags:
   - 'Acoustic'
   - 'Ceiling Baffles'
   - 'Lighting'
-category: 'lighting'
+category: 'Lighting'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/lighting/arktura-sound-bar'
 date: '2021-02-17'

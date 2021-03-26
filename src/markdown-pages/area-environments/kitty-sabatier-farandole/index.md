@@ -8,7 +8,7 @@ tags:
 title: 'Farandole'
 href: 'https://www.areaenvironments.com/order/ks2'
 designer: 'Kitty Sabatier'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/kitty-sabatier-farandole'

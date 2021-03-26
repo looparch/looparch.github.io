@@ -8,7 +8,7 @@ tags:
 title: 'Mapping The City'
 href: 'http://www.areaenvironments.com/order/dg-6-mapping-the-city-grey'
 designer: 'Doug Glovaski'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/doug-glovaski-mapping-the-city'

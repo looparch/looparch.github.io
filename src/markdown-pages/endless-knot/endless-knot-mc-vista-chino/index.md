@@ -9,7 +9,7 @@ tags:
   - 'Endless Knot'
   - 'Hand-Tufted Rugs'
 title: 'Mc – Vista Chino'
-category: 'hand-tufted-rugs'
+category: 'Hand Tufted Rugs'
 slug: '/manufacturers/endless-knot/hand-tufted-rugs/endless-knot-mc-vista-chino'
 date: '2021-02-17'
 ---

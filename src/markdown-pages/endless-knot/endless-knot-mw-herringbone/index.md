@@ -9,7 +9,7 @@ tags:
   - 'Endless Knot'
   - 'Hand-Knotted Rugs'
 title: 'Mw – Herringbone'
-category: 'hand-knotted-rugs'
+category: 'Hand Knotted Rugs'
 slug: '/manufacturers/endless-knot/hand-knotted-rugs/endless-knot-mw-herringbone'
 date: '2021-02-17'
 ---

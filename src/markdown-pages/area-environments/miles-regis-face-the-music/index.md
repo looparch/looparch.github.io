@@ -8,7 +8,7 @@ tags:
 title: 'Face The Music'
 href: 'https://www.areaenvironments.com/order/mr-1facethemusic'
 designer: 'Miles Regis'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/miles-regis-face-the-music'

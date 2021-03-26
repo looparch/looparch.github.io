@@ -8,7 +8,7 @@ tags:
 title: 'Falls & Flips'
 href: 'https://www.areaenvironments.com/order/sg-1-falls-and-flips'
 designer: 'Stefan Gevers'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/stefan-gevers-falls-flips'

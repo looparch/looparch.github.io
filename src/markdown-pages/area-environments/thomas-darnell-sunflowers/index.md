@@ -8,7 +8,7 @@ tags:
 title: 'Sunflowers'
 href: 'http://www.areaenvironments.com/order/td-4-sunflowers'
 designer: 'Thomas Darnell'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/thomas-darnell-sunflowers'

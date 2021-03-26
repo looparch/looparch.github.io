@@ -8,7 +8,7 @@ tags:
 title: 'Marble'
 href: 'https://www.areaenvironments.com/order/mc-10mws-marble-white-metallic-silver'
 designer: 'Michael Cina'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/michael-cina-marble'

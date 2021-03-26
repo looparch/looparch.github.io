@@ -8,7 +8,7 @@ tags:
 title: 'Sweetgrass'
 href: 'https://www.areaenvironments.com/order/bb-3sweetgrass'
 designer: 'Betsy Bannan'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/betsy-bannan-sweetgrass'

@@ -8,7 +8,7 @@ tags:
 title: 'Rising Waters'
 href: 'https://www.areaenvironments.com/order/ed-6-east-hennepin-axafw-w3l9w-34b63'
 designer: 'Erin Kaya'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/erin-kaya-rising-waters'

@@ -8,7 +8,7 @@ tags:
 title: 'Grid'
 href: 'https://www.areaenvironments.com/order/ch-3-grid'
 designer: 'Carl Heyward'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/carl-heyward-grid'

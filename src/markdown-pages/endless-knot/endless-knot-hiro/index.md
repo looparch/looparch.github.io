@@ -9,7 +9,7 @@ tags:
   - 'Endless Knot'
   - 'Hand-Knotted Rugs'
 title: 'Hiro'
-category: 'hand-knotted-rugs'
+category: 'Hand Knotted Rugs'
 slug: '/manufacturers/endless-knot/hand-knotted-rugs/endless-knot-hiro'
 date: '2021-02-17'
 ---

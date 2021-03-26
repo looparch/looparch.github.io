@@ -12,7 +12,7 @@ tags:
   - 'Ceiling Panels'
   - 'Lighting'
   - 'Wall Panels'
-category: 'lighting'
+category: 'Lighting'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/lighting/arktura-vapor-soft-trail'
 date: '2021-02-17'

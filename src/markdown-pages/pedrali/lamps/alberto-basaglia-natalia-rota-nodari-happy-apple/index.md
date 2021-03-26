@@ -11,7 +11,7 @@ tags:
   - 'Lighting'
   - 'Lamps'
 title: 'Happy Apple'
-category: 'lamps'
+category: 'Lamps'
 slug: '/manufacturers/pedrali/lamps/alberto-basaglia-natalia-rota-nodari-happy-apple'
 date: '2021-02-22'
 ---

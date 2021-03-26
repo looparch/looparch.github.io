@@ -10,7 +10,7 @@ tags:
   - 'Omni Collection'
   - 'On Demand Rugs'
 title: 'Hilldale'
-category: 'on-demand-rugs'
+category: 'On Demand Rugs'
 slug: '/manufacturers/endless-knot/on-demand-rugs/endless-knot-hilldale'
 date: '2021-02-17'
 ---

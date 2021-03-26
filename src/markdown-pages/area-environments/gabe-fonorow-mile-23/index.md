@@ -8,7 +8,7 @@ tags:
 title: 'Mile 23'
 href: 'https://www.areaenvironments.com/order/ed-6-east-hennepin-axafw-lxan5-fcfh3'
 designer: 'Gabe Fonorow'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/gabe-fonorow-mile-23'

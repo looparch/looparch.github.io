@@ -10,7 +10,7 @@ tags:
   - 'Arktura'
   - 'Acoustic'
   - 'Ceiling Clouds'
-category: 'ceiling-clouds'
+category: 'Ceiling Clouds'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/ceiling-clouds/arktura-tri-soft'
 date: '2021-02-17'

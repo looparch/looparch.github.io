@@ -8,7 +8,7 @@ tags:
 title: 'We Rise By Lifting Others'
 href: 'https://www.areaenvironments.com/order/mr-4werisebyliftingothers'
 designer: 'Miles Regis'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/miles-regis-we-rise-by-lifting-others'

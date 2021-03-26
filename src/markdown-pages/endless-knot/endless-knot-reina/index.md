@@ -9,7 +9,7 @@ tags:
   - 'Endless Knot'
   - 'Hand-Knotted Rugs'
 title: 'Reina'
-category: 'hand-knotted-rugs'
+category: 'Hand Knotted Rugs'
 slug: '/manufacturers/endless-knot/hand-knotted-rugs/endless-knot-reina'
 date: '2021-02-17'
 ---

@@ -8,7 +8,7 @@ tags:
 title: 'Journey'
 href: 'http://www.areaenvironments.com/order/kd-journey'
 designer: 'Karen Darling'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/karen-darling-journey'

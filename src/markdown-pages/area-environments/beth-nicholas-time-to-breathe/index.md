@@ -8,7 +8,7 @@ tags:
 title: 'Time To Breathe'
 href: 'https://www.areaenvironments.com/order/bn5'
 designer: 'Beth Nicholas'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/beth-nicholas-time-to-breathe'

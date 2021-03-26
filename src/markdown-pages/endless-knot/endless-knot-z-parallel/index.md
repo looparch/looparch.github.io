@@ -9,7 +9,7 @@ tags:
   - 'Endless Knot'
   - 'Hand-Tufted Rugs'
 title: 'Z – Parallel'
-category: 'hand-tufted-rugs'
+category: 'Hand Tufted Rugs'
 slug: '/manufacturers/endless-knot/hand-tufted-rugs/endless-knot-z-parallel'
 date: '2021-02-17'
 ---

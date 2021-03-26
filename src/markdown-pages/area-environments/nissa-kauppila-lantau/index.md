@@ -8,7 +8,7 @@ tags:
 title: 'Lantau'
 href: 'https://www.areaenvironments.com/order/nk-3-lantau'
 designer: 'Nissa Kauppila'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/nissa-kauppila-lantau'

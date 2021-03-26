@@ -11,7 +11,7 @@ tags:
   - 'Lighting'
   - 'Lamps'
 title: 'L004Sw/A'
-category: 'lamps'
+category: 'Lamps'
 slug: '/manufacturers/pedrali/lamps/alberto-basaglia-natalia-rota-nodari-l-004-sw-a'
 date: '2021-02-22'
 ---

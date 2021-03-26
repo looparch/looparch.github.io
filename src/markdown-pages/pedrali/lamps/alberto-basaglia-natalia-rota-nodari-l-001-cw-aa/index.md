@@ -11,7 +11,7 @@ tags:
   - 'Lighting'
   - 'Lamps'
 title: 'L001Cw/Aa'
-category: 'lamps'
+category: 'Lamps'
 slug: '/manufacturers/pedrali/lamps/alberto-basaglia-natalia-rota-nodari-l-001-cw-aa'
 date: '2021-02-22'
 ---

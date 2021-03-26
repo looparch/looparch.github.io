@@ -8,7 +8,7 @@ tags:
 title: 'Tomorrow Sunny'
 href: 'https://www.areaenvironments.com/order/mc-tomorrow-sunny'
 designer: 'Michael Cina'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/michael-cina-tomorrow-sunny'

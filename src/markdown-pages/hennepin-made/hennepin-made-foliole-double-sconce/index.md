@@ -10,7 +10,7 @@ tags:
   - 'Lighting'
   - 'Sconces'
 image_secondary: 'img/Foliole_DoubleSconce_Smoke_Gunmetal_Ebony.jpg'
-category: 'sconces'
+category: 'Sconces'
 manufacturer: 'Hennepin Made'
 slug: '/manufacturers/hennepin-made/sconces/hennepin-made-foliole-double-sconce'
 ---

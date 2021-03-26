@@ -8,7 +8,7 @@ tags:
 title: 'Swimming Hole'
 href: 'https://www.areaenvironments.com/order/mk-3-swimming-hole'
 designer: 'Matthew Kirk'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/matthew-kirk-swimming-hole'

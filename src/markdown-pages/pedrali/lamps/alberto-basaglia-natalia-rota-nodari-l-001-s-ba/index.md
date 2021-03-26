@@ -11,7 +11,7 @@ tags:
   - 'Lighting'
   - 'Lamps'
 title: 'L001S/Ba'
-category: 'lamps'
+category: 'Lamps'
 slug: '/manufacturers/pedrali/lamps/alberto-basaglia-natalia-rota-nodari-l-001-s-ba'
 date: '2021-02-22'
 ---

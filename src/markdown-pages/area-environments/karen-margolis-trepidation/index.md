@@ -8,7 +8,7 @@ tags:
 title: 'Trepidation'
 href: 'https://www.areaenvironments.com/order/dmb1-zm4px-m6fn5-hwzt6-safy2-75r33-baysk'
 designer: 'Karen Margolis'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/karen-margolis-trepidation'

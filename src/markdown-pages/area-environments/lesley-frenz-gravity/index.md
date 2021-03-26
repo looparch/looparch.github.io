@@ -8,7 +8,7 @@ tags:
 title: 'Gravity'
 href: 'https://www.areaenvironments.com/order/lf-3-gravity'
 designer: 'Lesley Frenz'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/lesley-frenz-gravity'

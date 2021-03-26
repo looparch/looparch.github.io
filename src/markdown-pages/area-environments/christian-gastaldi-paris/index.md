@@ -8,7 +8,7 @@ tags:
 title: 'Paris'
 href: 'https://www.areaenvironments.com/order/cg-3-paris'
 designer: 'Christian Gastaldi'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/christian-gastaldi-paris'

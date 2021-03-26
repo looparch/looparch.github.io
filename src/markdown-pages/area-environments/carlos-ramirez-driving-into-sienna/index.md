@@ -8,7 +8,7 @@ tags:
 title: 'Driving Into Sienna'
 href: 'http://www.areaenvironments.com/order/cr-driving-into-siena'
 designer: 'Carlos Ramirez'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/carlos-ramirez-driving-into-sienna'

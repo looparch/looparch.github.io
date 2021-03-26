@@ -8,7 +8,7 @@ tags:
 title: 'Sur La Lune'
 href: 'https://www.areaenvironments.com/order/ks3'
 designer: 'Kitty Sabatier'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/kitty-sabatier-sur-la-lune'

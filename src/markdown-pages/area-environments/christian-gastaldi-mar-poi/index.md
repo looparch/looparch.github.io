@@ -8,7 +8,7 @@ tags:
 title: 'Mar Poi'
 href: 'https://www.areaenvironments.com/order/cg-2-mar-poi'
 designer: 'Christian Gastaldi'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/christian-gastaldi-mar-poi'

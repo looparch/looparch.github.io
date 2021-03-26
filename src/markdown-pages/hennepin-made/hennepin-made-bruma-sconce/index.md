@@ -10,7 +10,7 @@ tags:
   - 'Lighting'
   - 'Sconces'
 image_secondary: 'img/BRU-120-00-01-SS.jpg'
-category: 'sconces'
+category: 'Sconces'
 manufacturer: 'Hennepin Made'
 slug: '/manufacturers/hennepin-made/sconces/hennepin-made-bruma-sconce'
 ---

@@ -9,7 +9,7 @@ tags:
   - 'Endless Knot'
   - 'Hand-Knotted Rugs'
 title: 'Vestige'
-category: 'hand-knotted-rugs'
+category: 'Hand Knotted Rugs'
 slug: '/manufacturers/endless-knot/hand-knotted-rugs/endless-knot-vestige'
 date: '2021-02-17'
 ---

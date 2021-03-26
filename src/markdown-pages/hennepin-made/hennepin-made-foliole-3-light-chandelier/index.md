@@ -10,7 +10,7 @@ tags:
   - 'Lighting'
   - 'Chandeliers'
 image_secondary: 'img/Foliole_Chandelier_Smoke_WhiteGold_Natural_White.jpg'
-category: 'chandeliers'
+category: 'Chandeliers'
 manufacturer: 'Hennepin Made'
 slug: '/manufacturers/hennepin-made/chandeliers/hennepin-made-foliole-3-light-chandelier'
 ---

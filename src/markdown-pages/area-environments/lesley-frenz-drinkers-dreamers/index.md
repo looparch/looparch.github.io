@@ -8,7 +8,7 @@ tags:
 title: 'Drinkers & Dreamers'
 href: 'https://www.areaenvironments.com/order/lf-2-drinkers-and-dreamers'
 designer: 'Lesley Frenz'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/lesley-frenz-drinkers-dreamers'

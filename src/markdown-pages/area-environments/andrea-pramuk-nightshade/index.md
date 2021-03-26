@@ -8,7 +8,7 @@ tags:
 title: 'Nightshade'
 href: 'https://www.areaenvironments.com/order/ap-night-shade'
 designer: 'Andrea Pramuk'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/andrea-pramuk-nightshade'

@@ -10,7 +10,7 @@ tags:
   - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Cylinder_Sapphire_Champagne_White.jpg'
-category: 'pendants'
+category: 'Pendants'
 manufacturer: 'Hennepin Made'
 slug: '/manufacturers/hennepin-made/pendants/hennepin-made-parallel-cylinder'
 ---

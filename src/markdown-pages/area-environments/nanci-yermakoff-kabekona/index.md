@@ -8,7 +8,7 @@ tags:
 title: 'Kabekona'
 href: 'http://www.areaenvironments.com/order/ny-2-kabekona'
 designer: 'Nanci Yermakoff'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/nanci-yermakoff-kabekona'

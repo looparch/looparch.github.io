@@ -8,7 +8,7 @@ tags:
 title: 'Songs After Dark'
 href: 'https://www.areaenvironments.com/order/ch-4-songs-after-dark'
 designer: 'Carl Heyward'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/carl-heyward-songs-after-dark'

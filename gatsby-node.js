@@ -1,4 +1,5 @@
 const path = require('path')
+const voca = require('voca')
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
@@ -9,6 +10,9 @@ exports.createPages = ({ graphql, actions }) => {
       './src/templates/manufacturer-post.js'
     )
     const productTemplate = path.resolve('./src/templates/product-template.js')
+    const categoryTemplate = path.resolve(
+      './src/templates/category-template.js'
+    )
 
     resolve(
       graphql(
@@ -46,6 +50,9 @@ exports.createPages = ({ graphql, actions }) => {
                 }
               }
             }
+            categories: allMarkdownRemark {
+              distinct(field: frontmatter___category)
+            }
           }
         `
       ).then((result) => {
@@ -56,6 +63,8 @@ exports.createPages = ({ graphql, actions }) => {
         const posts = result.data.allContentfulBlogPost.edges
         const manufacturers = result.data.allContentfulManufacturer.edges
         const products = result.data.allMarkdownRemark.edges
+        const categories = result.data.categories.distinct
+
         posts.forEach((post, index) => {
           createPage({
             path: `/articles/${post.node.slug}/`,
@@ -83,6 +92,15 @@ exports.createPages = ({ graphql, actions }) => {
               // additional data can be passed via context
               slug: product.node.frontmatter.slug,
               manufacturer: product.node.frontmatter.manufacturer,
+            },
+          })
+        })
+        categories.forEach((category, index) => {
+          createPage({
+            path: `categories/${voca.kebabCase(category)}`,
+            component: categoryTemplate,
+            context: {
+              category,
             },
           })
         })

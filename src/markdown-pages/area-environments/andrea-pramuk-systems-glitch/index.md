@@ -8,7 +8,7 @@ tags:
 title: 'Systems Glitch'
 href: 'https://www.areaenvironments.com/order/ap10'
 designer: 'Andrea Pramuk'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/andrea-pramuk-systems-glitch'

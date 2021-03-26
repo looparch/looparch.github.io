@@ -12,7 +12,7 @@ tags:
   - 'Ceiling Baffles'
   - 'Ceiling Clouds'
   - 'Lighting'
-category: 'ceiling-clouds'
+category: 'Ceiling Clouds'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/ceiling-clouds/arktura-soft-span-96'
 date: '2021-02-17'

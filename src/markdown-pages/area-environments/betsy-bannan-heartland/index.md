@@ -8,7 +8,7 @@ tags:
 title: 'Heartland'
 href: 'https://www.areaenvironments.com/order/bb-2heartland'
 designer: 'Betsy Bannan'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/betsy-bannan-heartland'

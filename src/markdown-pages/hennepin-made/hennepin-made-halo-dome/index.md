@@ -10,7 +10,7 @@ tags:
   - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Halo_Dome_Clear_Copper_White.jpg'
-category: 'pendants'
+category: 'Pendants'
 manufacturer: 'Hennepin Made'
 slug: '/manufacturers/hennepin-made/pendants/hennepin-made-halo-dome'
 ---

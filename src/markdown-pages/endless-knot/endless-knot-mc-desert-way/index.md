@@ -9,7 +9,7 @@ tags:
   - 'Endless Knot'
   - 'Hand-Tufted Rugs'
 title: 'Mc – Desert Way'
-category: 'hand-tufted-rugs'
+category: 'Hand Tufted Rugs'
 slug: '/manufacturers/endless-knot/hand-tufted-rugs/endless-knot-mc-desert-way'
 date: '2021-02-17'
 ---

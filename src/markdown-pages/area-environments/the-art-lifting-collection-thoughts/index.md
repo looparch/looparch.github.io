@@ -8,7 +8,7 @@ tags:
 title: 'Thoughts'
 href: 'https://www.areaenvironments.com/order/al-10thoughts'
 designer: 'The ArtLifting Collection'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/the-art-lifting-collection-thoughts'

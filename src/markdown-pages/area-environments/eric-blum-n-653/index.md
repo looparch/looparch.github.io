@@ -8,7 +8,7 @@ tags:
 title: 'N° 653'
 href: 'https://www.areaenvironments.com/order/eb-653'
 designer: 'Eric Blum'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/eric-blum-n-653'

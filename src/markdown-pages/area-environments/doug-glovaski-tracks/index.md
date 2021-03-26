@@ -8,7 +8,7 @@ tags:
 title: 'Tracks'
 href: 'https://www.areaenvironments.com/order/dg-tracks'
 designer: 'Doug Glovaski'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/doug-glovaski-tracks'

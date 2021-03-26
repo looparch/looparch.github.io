@@ -8,7 +8,7 @@ tags:
 title: 'Tree Of Life'
 href: 'https://www.areaenvironments.com/order/dmb3'
 designer: 'Domenica Brockman'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/domenica-brockman-tree-of-life'

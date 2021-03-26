@@ -8,7 +8,7 @@ tags:
 title: 'Peonies Close Up'
 href: 'https://www.areaenvironments.com/order/td-peonies-close-up'
 designer: 'Thomas Darnell'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/thomas-darnell-peonies-close-up'

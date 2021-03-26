@@ -8,7 +8,7 @@ tags:
 title: 'Flowering'
 href: 'https://www.areaenvironments.com/order/dmb1-zm4px-mtyae'
 designer: 'Domitilla Biondi'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/domitilla-biondi-flowering'

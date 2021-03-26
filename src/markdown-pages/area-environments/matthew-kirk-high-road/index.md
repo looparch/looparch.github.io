@@ -8,7 +8,7 @@ tags:
 title: 'High Road'
 href: 'https://www.areaenvironments.com/order/mk-2-high-road'
 designer: 'Matthew Kirk'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/matthew-kirk-high-road'

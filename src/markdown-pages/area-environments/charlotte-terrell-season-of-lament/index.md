@@ -8,7 +8,7 @@ tags:
 title: 'Season Of Lament'
 href: 'https://www.areaenvironments.com/order/dmb1-zm4px-3ef9e'
 designer: 'Charlotte Terrell'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/charlotte-terrell-season-of-lament'

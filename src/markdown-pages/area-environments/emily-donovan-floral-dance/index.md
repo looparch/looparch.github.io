@@ -8,7 +8,7 @@ tags:
 title: 'Floral Dance'
 href: 'http://www.areaenvironments.com/order/ed-1-floral-dance'
 designer: 'Emily Donovan'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/emily-donovan-floral-dance'

@@ -8,7 +8,7 @@ tags:
 title: 'People All Over The World'
 href: 'https://www.areaenvironments.com/order/mr-3peopleallovertheworld'
 designer: 'Miles Regis'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/miles-regis-people-all-over-the-world'

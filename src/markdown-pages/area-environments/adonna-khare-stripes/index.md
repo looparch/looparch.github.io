@@ -8,7 +8,7 @@ tags:
 title: 'Stripes'
 href: 'https://www.areaenvironments.com/order/ak-3stripes'
 designer: 'Adonna Khare'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/adonna-khare-stripes'

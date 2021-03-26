@@ -8,7 +8,7 @@ tags:
 title: 'Seeing From A Distance'
 href: 'http://www.areaenvironments.com/order/bn-seeing-from-a-distance'
 designer: 'Beth Nicholas'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/beth-nicholas-seeing-from-a-distance'

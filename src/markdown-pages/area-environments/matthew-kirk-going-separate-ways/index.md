@@ -8,7 +8,7 @@ tags:
 title: 'Going Separate Ways'
 href: 'https://www.areaenvironments.com/order/mk-1-going-separate-ways'
 designer: 'Matthew Kirk'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/matthew-kirk-going-separate-ways'

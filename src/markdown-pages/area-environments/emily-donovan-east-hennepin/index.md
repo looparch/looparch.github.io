@@ -8,7 +8,7 @@ tags:
 title: 'East Hennepin'
 href: 'http://www.areaenvironments.com/order/ed-6-east-hennepin'
 designer: 'Emily Donovan'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/emily-donovan-east-hennepin'

@@ -11,7 +11,7 @@ tags:
   - 'Acoustic'
   - 'Wall Panels'
   - 'Partitions'
-category: 'wall-panels'
+category: 'Wall Panels'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/wall-panels/arktura-soft-screen-slant'
 date: '2021-02-17'

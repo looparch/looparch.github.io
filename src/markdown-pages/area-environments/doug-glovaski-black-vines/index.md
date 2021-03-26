@@ -8,7 +8,7 @@ tags:
 title: 'Black Vines'
 href: 'https://www.areaenvironments.com/order/dmb1-zm4px-n39m6'
 designer: 'Doug Glovaski'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/doug-glovaski-black-vines'

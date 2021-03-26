@@ -8,7 +8,7 @@ tags:
 title: 'Summer Hike'
 href: 'http://www.areaenvironments.com/order/cr-summer-hike'
 designer: 'Carlos Ramirez'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/carlos-ramirez-summer-hike'

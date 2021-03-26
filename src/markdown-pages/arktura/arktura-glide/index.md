@@ -10,7 +10,7 @@ tags:
   - 'Arktura'
   - 'Acoustic'
   - 'Partitions'
-category: 'partitions'
+category: 'Partitions'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/partitions/arktura-glide'
 date: '2021-02-17'

@@ -8,7 +8,7 @@ tags:
 title: 'Moonlight'
 href: 'http://www.areaenvironments.com/order/ap-moonlight'
 designer: 'Andrea Pramuk'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/andrea-pramuk-moonlight'

@@ -9,7 +9,7 @@ href: 'https://arktura.com/product/alluvia-custom/'
 tags:
   - 'Arktura'
   - 'Ceiling Clouds'
-category: 'ceiling-clouds'
+category: 'Ceiling Clouds'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/ceiling-clouds/arktura-alluvia-custom'
 date: '2021-02-17'

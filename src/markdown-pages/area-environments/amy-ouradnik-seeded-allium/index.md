@@ -8,7 +8,7 @@ tags:
 title: 'Seeded Allium'
 href: 'https://www.areaenvironments.com/order/ao-4seededallium'
 designer: 'Amy Ouradnik'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/amy-ouradnik-seeded-allium'

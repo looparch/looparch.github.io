@@ -8,7 +8,7 @@ tags:
 title: 'Revealed'
 href: 'http://www.areaenvironments.com/order/dg-11-revealed-yellow'
 designer: 'Doug Glovaski'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/doug-glovaski-revealed'

@@ -10,7 +10,7 @@ tags:
   - 'Arktura'
   - 'Exterior Systems'
   - 'Wall Panels'
-category: 'exterior-systems'
+category: 'Exterior Systems'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/exterior-systems/arktura-secare'
 date: '2021-02-17'

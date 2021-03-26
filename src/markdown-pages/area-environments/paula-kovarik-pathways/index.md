@@ -8,7 +8,7 @@ tags:
 title: 'Pathways'
 href: 'https://www.areaenvironments.com/order/dmb1-zm4px-m6fn5-hwzt6-safy2-75r33-baysk-jtgzt-3rpjb-e947a-myft7'
 designer: 'Paula Kovarik'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/paula-kovarik-pathways'

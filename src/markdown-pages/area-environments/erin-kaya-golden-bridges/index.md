@@ -8,7 +8,7 @@ tags:
 title: 'Golden Bridges'
 href: 'https://www.areaenvironments.com/order/ed-6-east-hennepin-axafw-f6dsg'
 designer: 'Erin Kaya'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/erin-kaya-golden-bridges'

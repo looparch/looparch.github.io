@@ -8,7 +8,7 @@ tags:
 title: 'Collected Turbulence'
 href: 'https://www.areaenvironments.com/order/jw-1-collected-turbulance'
 designer: 'Jennifer Wagner'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/jennifer-wagner-collected-turbulence'

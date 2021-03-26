@@ -8,7 +8,7 @@ tags:
 title: 'Never Hide Your Eyes'
 href: 'https://www.areaenvironments.com/order/nhnever-hide-your-eyes'
 designer: 'Niki Hare'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/niki-hare-never-hide-your-eyes'

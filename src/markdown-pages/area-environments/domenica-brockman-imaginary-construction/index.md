@@ -8,7 +8,7 @@ tags:
 title: 'Imaginary Construction'
 href: 'https://www.areaenvironments.com/order/dmb4'
 designer: 'Domenica Brockman'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/domenica-brockman-imaginary-construction'

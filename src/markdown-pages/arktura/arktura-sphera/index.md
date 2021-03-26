@@ -9,7 +9,7 @@ href: 'https://arktura.com/product/sphera/'
 tags:
   - 'Arktura'
   - 'Ceiling Clouds'
-category: 'ceiling-clouds'
+category: 'Ceiling Clouds'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/ceiling-clouds/arktura-sphera'
 date: '2021-02-17'

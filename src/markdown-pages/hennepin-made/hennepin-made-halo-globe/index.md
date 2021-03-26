@@ -10,7 +10,7 @@ tags:
   - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Halo_Globe_Sapphire_Nickel_White.jpg'
-category: 'pendants'
+category: 'Pendants'
 manufacturer: 'Hennepin Made'
 slug: '/manufacturers/hennepin-made/pendants/hennepin-made-halo-globe'
 ---

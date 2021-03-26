@@ -8,7 +8,7 @@ tags:
 title: 'Kitchen Garden'
 href: 'https://www.areaenvironments.com/order/rd-2-kitchen-garden'
 designer: 'Rachel Dein'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/rachel-dein-kitchen-garden'

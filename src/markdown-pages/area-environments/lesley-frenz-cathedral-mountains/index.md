@@ -8,7 +8,7 @@ tags:
 title: 'Cathedral Mountains'
 href: 'https://www.areaenvironments.com/order/lf-5cathedralmountains'
 designer: 'Lesley Frenz'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/lesley-frenz-cathedral-mountains'

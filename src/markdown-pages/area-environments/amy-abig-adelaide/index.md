@@ -8,7 +8,7 @@ tags:
 title: 'Adelaide'
 href: 'http://www.areaenvironments.com/order/aa-1-adelaide'
 designer: 'Amy Abig'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/amy-abig-adelaide'

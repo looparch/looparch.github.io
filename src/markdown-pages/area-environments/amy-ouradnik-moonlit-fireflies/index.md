@@ -8,7 +8,7 @@ tags:
 title: 'Moonlit Fireflies'
 href: 'https://www.areaenvironments.com/order/ao-2moonlitfireflies'
 designer: 'Amy Ouradnik'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/amy-ouradnik-moonlit-fireflies'

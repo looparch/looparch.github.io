@@ -10,7 +10,7 @@ tags:
   - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Celeste_Vertical_Long_Solid_Black.jpg'
-category: 'pendants'
+category: 'Pendants'
 manufacturer: 'Hennepin Made'
 slug: '/manufacturers/hennepin-made/pendants/hennepin-made-celeste-pendant'
 ---

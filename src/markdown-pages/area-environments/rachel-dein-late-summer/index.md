@@ -8,7 +8,7 @@ tags:
 title: 'Late Summer'
 href: 'https://www.areaenvironments.com/order/rd-3-late-summer'
 designer: 'Rachel Dein'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/rachel-dein-late-summer'

@@ -11,7 +11,7 @@ tags:
   - 'Acoustic'
   - 'Ceiling Baffles'
   - 'Ceiling Clouds'
-category: 'ceiling-clouds'
+category: 'Ceiling Clouds'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/ceiling-clouds/arktura-soft-grid-round'
 date: '2021-02-17'

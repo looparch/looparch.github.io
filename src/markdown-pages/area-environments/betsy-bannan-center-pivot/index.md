@@ -8,7 +8,7 @@ tags:
 title: 'Center Pivot'
 href: 'https://www.areaenvironments.com/order/bb-1centerpivot'
 designer: 'Betsy Bannan'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/betsy-bannan-center-pivot'

@@ -8,7 +8,7 @@ tags:
 title: 'Colors & Promises'
 href: 'https://www.areaenvironments.com/order/lf-1-colors-and-promises'
 designer: 'Lesley Frenz'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/lesley-frenz-colors-promises'

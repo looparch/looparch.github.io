@@ -8,7 +8,7 @@ tags:
 title: 'Moulting Feathers'
 href: 'http://www.areaenvironments.com/order/copy-of-ar-moulting-feathers'
 designer: 'Adele Renault'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/adele-renault-moulting-feathers'

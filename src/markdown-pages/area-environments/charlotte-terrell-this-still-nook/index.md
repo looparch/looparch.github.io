@@ -8,7 +8,7 @@ tags:
 title: 'This Still Nook'
 href: 'https://www.areaenvironments.com/order/dmb1-zm4px-m6fn5'
 designer: 'Charlotte Terrell'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/charlotte-terrell-this-still-nook'

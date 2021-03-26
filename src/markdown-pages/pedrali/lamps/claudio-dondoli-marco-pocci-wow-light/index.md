@@ -11,7 +11,7 @@ tags:
   - 'Lighting'
   - 'Lamps'
 title: 'Wow Light'
-category: 'lamps'
+category: 'Lamps'
 slug: '/manufacturers/pedrali/lamps/claudio-dondoli-marco-pocci-wow-light'
 date: '2021-02-22'
 ---

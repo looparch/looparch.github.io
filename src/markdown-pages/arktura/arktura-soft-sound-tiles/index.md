@@ -10,7 +10,7 @@ tags:
   - 'Arktura'
   - 'Acoustic'
   - 'Wall Panels'
-category: 'wall-panels'
+category: 'Wall Panels'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/wall-panels/arktura-soft-sound-tiles'
 date: '2021-02-17'

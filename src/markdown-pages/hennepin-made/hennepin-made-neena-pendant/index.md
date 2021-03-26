@@ -7,9 +7,9 @@ title: 'Neena Pendant'
 href: 'https://www.hennepinmade.com/shop/neena-pendant'
 tags:
   - 'hennepin-made'
-  - 'pendants'
+  - 'Pendants'
 image_secondary: 'img/image-asset.jpeg'
-category: 'pendants'
+category: 'Pendants'
 manufacturer: 'Hennepin Made'
 slug: '/manufacturers/hennepin-made/pendants/hennepin-made-neena-pendant'
 ---

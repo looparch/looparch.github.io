@@ -8,7 +8,7 @@ tags:
 title: 'Tumult Of The Soul'
 href: 'https://www.areaenvironments.com/order/dmb1-zm4px-pj7hk'
 designer: 'Charlotte Terrell'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/charlotte-terrell-tumult-of-the-soul'

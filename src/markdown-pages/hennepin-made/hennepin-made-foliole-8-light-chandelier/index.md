@@ -10,7 +10,7 @@ tags:
   - 'Lighting'
   - 'Chandeliers'
 image_secondary: 'img/crystal-natural-wgold.jpg'
-category: 'chandeliers'
+category: 'Chandeliers'
 manufacturer: 'Hennepin Made'
 slug: '/manufacturers/hennepin-made/chandeliers/hennepin-made-foliole-8-light-chandelier'
 ---

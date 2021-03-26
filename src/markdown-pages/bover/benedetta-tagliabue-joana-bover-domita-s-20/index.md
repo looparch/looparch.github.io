@@ -11,7 +11,7 @@ tags:
   - 'Table'
   - 'Indoor Lamps'
 href: 'https://www.bover.es/en/lamp/domita-s-20/'
-category: 'indoor-lamps'
+category: 'Indoor Lamps'
 subtitle: ''
 manufacturer: 'Bover'
 slug: '/manufacturers/bover/indoor-lamps/benedetta-tagliabue-joana-bover-domita-s-20'

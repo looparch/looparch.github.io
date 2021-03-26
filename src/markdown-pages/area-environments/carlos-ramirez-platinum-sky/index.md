@@ -8,7 +8,7 @@ tags:
 title: 'Platinum Sky'
 href: 'http://www.areaenvironments.com/order/cr-platinum-sky'
 designer: 'Carlos Ramirez'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/carlos-ramirez-platinum-sky'

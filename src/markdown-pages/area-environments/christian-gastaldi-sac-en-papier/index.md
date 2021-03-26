@@ -8,7 +8,7 @@ tags:
 title: 'Sac En Papier'
 href: 'https://www.areaenvironments.com/order/cg-4-sac-en-papier'
 designer: 'Christian Gastaldi'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/christian-gastaldi-sac-en-papier'

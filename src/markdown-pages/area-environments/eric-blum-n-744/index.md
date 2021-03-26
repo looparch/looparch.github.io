@@ -8,7 +8,7 @@ tags:
 title: 'N° 744'
 href: 'http://www.areaenvironments.com/order/eb-9-744'
 designer: 'Eric Blum'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/eric-blum-n-744'

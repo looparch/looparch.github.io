@@ -8,7 +8,7 @@ tags:
 title: 'C’Est Une Histoire'
 href: 'https://www.areaenvironments.com/order/ks1'
 designer: 'Kitty Sabatier'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/kitty-sabatier-c-est-une-histoire'

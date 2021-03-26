@@ -8,7 +8,7 @@ tags:
 title: 'Distortions 2'
 href: 'https://www.areaenvironments.com/order/ch-1-distortions-2'
 designer: 'Carl Heyward'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/carl-heyward-distortions-2'

@@ -8,7 +8,7 @@ tags:
 title: 'Baroque Beauty'
 href: 'http://www.areaenvironments.com/order/db-1-baroque-beauty'
 designer: 'Domitilla Biondi'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/domitilla-biondi-baroque-beauty'

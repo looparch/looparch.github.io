@@ -8,7 +8,7 @@ tags:
 title: 'Hover'
 href: 'https://www.areaenvironments.com/order/st2'
 designer: 'Stephanie Tuckwell'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/stephanie-tuckwell-hover'

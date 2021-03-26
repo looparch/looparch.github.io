@@ -8,7 +8,7 @@ tags:
 title: 'Verdant Ploy'
 href: 'https://www.areaenvironments.com/order/jw-3-verdant-ploy'
 designer: 'Jennifer Wagner'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/jennifer-wagner-verdant-ploy'

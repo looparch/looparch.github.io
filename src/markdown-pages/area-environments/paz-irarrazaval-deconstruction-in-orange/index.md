@@ -8,7 +8,7 @@ tags:
 title: 'Deconstruction In Orange'
 href: 'https://www.areaenvironments.com/order/ed-6-east-hennepin-axafw-w3l9w-ewf9t-sfzsd'
 designer: 'Paz Irarrázaval'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/paz-irarrazaval-deconstruction-in-orange'

@@ -10,7 +10,7 @@ tags:
   - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Carina_Bronze_DT_White.jpg'
-category: 'pendants'
+category: 'Pendants'
 manufacturer: 'Hennepin Made'
 slug: '/manufacturers/hennepin-made/pendants/hennepin-made-parallel-carina'
 ---

@@ -8,7 +8,7 @@ tags:
 title: 'Green Foliage'
 href: 'https://www.areaenvironments.com/order/sg-2-green-foliage'
 designer: 'Stefan Gevers'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/stefan-gevers-green-foliage'

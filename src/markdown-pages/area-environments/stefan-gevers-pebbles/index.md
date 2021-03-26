@@ -8,7 +8,7 @@ tags:
 title: 'Pebbles'
 href: 'https://www.areaenvironments.com/order/sg-4-pebbles'
 designer: 'Stefan Gevers'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/stefan-gevers-pebbles'

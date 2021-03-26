@@ -8,7 +8,7 @@ tags:
 title: 'House On The Hill'
 href: 'https://www.areaenvironments.com/order/ak-2houseonthehill'
 designer: 'Adonna Khare'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/adonna-khare-house-on-the-hill'

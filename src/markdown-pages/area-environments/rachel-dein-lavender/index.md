@@ -8,7 +8,7 @@ tags:
 title: 'Lavender'
 href: 'https://www.areaenvironments.com/order/rd-4-lavender'
 designer: 'Rachel Dein'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/rachel-dein-lavender'

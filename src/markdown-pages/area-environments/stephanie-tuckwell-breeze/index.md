@@ -8,7 +8,7 @@ tags:
 title: 'Breeze'
 href: 'https://www.areaenvironments.com/order/st3'
 designer: 'Stephanie Tuckwell'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/stephanie-tuckwell-breeze'

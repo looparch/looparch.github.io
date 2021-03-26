@@ -8,7 +8,7 @@ tags:
 title: 'Beach'
 href: 'https://www.areaenvironments.com/order/st5'
 designer: 'Stephanie Tuckwell'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/stephanie-tuckwell-beach'

@@ -8,7 +8,7 @@ tags:
 title: 'For Fearless Virtue'
 href: 'https://www.areaenvironments.com/order/dmb1-zm4px-gzdyx'
 designer: 'Charlotte Terrell'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/charlotte-terrell-for-fearless-virtue'

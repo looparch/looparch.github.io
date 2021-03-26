@@ -8,7 +8,7 @@ tags:
 title: 'Burlington'
 href: 'https://www.areaenvironments.com/order/nk-1-burlington'
 designer: 'Nissa Kauppila'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/nissa-kauppila-burlington'

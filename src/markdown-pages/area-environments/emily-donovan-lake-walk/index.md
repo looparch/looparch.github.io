@@ -8,7 +8,7 @@ tags:
 title: 'Lake Walk'
 href: 'http://www.areaenvironments.com/order/ed-2-lake-walk'
 designer: 'Emily Donovan'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/emily-donovan-lake-walk'

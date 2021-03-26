@@ -8,7 +8,7 @@ tags:
 title: 'So Much (Spoken)'
 href: 'https://www.areaenvironments.com/order/nh-so-much-spoken'
 designer: 'Niki Hare'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/niki-hare-so-much-spoken'

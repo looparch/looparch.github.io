@@ -8,7 +8,7 @@ tags:
 title: 'For Every Action'
 href: 'https://www.areaenvironments.com/order/ed-6-east-hennepin-axafw-w3l9w-ewf9t-ya7as-h5g6y'
 designer: 'Wendy Westlake'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/wendy-westlake-for-every-action'

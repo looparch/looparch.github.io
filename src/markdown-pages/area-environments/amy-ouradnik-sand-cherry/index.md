@@ -8,7 +8,7 @@ tags:
 title: 'Sand Cherry'
 href: 'https://www.areaenvironments.com/order/ao-3sandcherry'
 designer: 'Amy Ouradnik'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/amy-ouradnik-sand-cherry'

@@ -9,7 +9,7 @@ href: 'https://arktura.com/product/switch-48/'
 tags:
   - 'Arktura'
   - 'Ceiling Clouds'
-category: 'ceiling-clouds'
+category: 'Ceiling Clouds'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/ceiling-clouds/arktura-switch-48'
 date: '2021-02-17'

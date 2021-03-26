@@ -8,7 +8,7 @@ tags:
 title: 'Syncopated 3'
 href: 'https://www.areaenvironments.com/order/jw-2-syncopated-3'
 designer: 'Jennifer Wagner'
-category: 'wall-covering'
+category: 'Wall Covering'
 manufacturer: 'Area Environments'
 description: ''
 slug: '/manufacturers/area-environments/wall-covering/jennifer-wagner-syncopated-3'

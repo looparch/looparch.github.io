@@ -40,6 +40,9 @@ export default ({ children }) => (
             userTwitter
           }
         }
+        categories: allMarkdownRemark {
+          distinct(field: frontmatter___category)
+        }
       }
     `}
     render={(data) => (
@@ -61,7 +64,10 @@ export default ({ children }) => (
             content="166b8bf16af4de614dccd2ea61cb0dc6"
           />
         </Helmet>
-        <Navigation manufacturers={data.allContentfulManufacturer.edges} />
+        <Navigation
+          manufacturers={data.allContentfulManufacturer.edges}
+          categories={data.categories.distinct}
+        />
         <div>{children}</div>
         <Footer
           manufacturers={data.allContentfulManufacturer.edges}

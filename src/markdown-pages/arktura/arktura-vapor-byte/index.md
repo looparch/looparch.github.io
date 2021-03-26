@@ -12,7 +12,7 @@ tags:
   - 'Ceiling Panels'
   - 'Lighting'
   - 'Wall Panels'
-category: 'wall-panels'
+category: 'Wall Panels'
 manufacturer: 'Arktura'
 slug: '/manufacturers/arktura/wall-panels/arktura-vapor-byte'
 date: '2021-02-17'
