@@ -8,6 +8,17 @@ import FormFormspree from '../components/form-formspree'
 import SEO from '../components/seo'
 
 class ContactPage extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      displayMap: false,
+    }
+  }
+
+  componentDidMount() {
+    this.setState({ displayMap: true })
+  }
+
   render() {
     const siteMetadata = this.props.data.site.siteMetadata
     const siteTitle = siteMetadata.title
@@ -37,6 +48,7 @@ class ContactPage extends React.Component {
           <GoogleMap
             API_KEY={this.props.data.site.siteMetadata.mapKey}
             PLACE_ID={this.props.data.site.siteMetadata.placeId}
+            render={this.state.displayMap}
           />
           <section className="section">
             <div className="container">

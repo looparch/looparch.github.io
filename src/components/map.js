@@ -11,7 +11,7 @@ class GoogleMap extends React.Component {
     const LOOPARCH_MAPS_KEY = this.props.API_KEY
 
     return (
-      <section className="">
+      <section>
         <Helmet>
           <script type="text/javascript">
             {`
@@ -55,10 +55,10 @@ class GoogleMap extends React.Component {
             defer
           />
         </Helmet>
-        <div className="">
+        <div>
           <div
             id="map"
-            css={{
+            style={{
               display: 'block',
               height: '20rem',
             }}

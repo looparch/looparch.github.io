@@ -12,7 +12,6 @@ import Layout from '../components/layout'
 class CategoryTemplate extends React.Component {
   constructor(props) {
     super(props)
-    console.log(props)
   }
 
   render() {
@@ -49,7 +48,7 @@ class CategoryTemplate extends React.Component {
                             title={`${item.manufacturer} ${item.title}`}
                             className={`image product-preview-image fluid`}
                           />
-                          <h3 className="is-size-6">{`${item.manufacturer} - ${item.title}`}</h3>
+                          <h2 className="is-size-6">{`${item.manufacturer} - ${item.title}`}</h2>
                         </Link>
                       </article>
                     )

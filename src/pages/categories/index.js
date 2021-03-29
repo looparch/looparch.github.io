@@ -20,7 +20,7 @@ class CategoriesIndex extends React.Component {
       title: 'Categories',
       description: {
         internal: {
-          content: 'Lopp Architectural Materials product listing by category.',
+          content: 'Loop Architectural Materials product listing by category.',
         },
       },
     }
