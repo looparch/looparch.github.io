@@ -4,6 +4,9 @@
 $family-sans-serif: "Helvetica Neue",
 system-ui,
 sans-serif;
+$card-content-padding: 0rem 0rem 2.25rem 0rem;
+$card-shadow: none;
+$card-radius: 0px;
 $radius-small: 0px;
 $radius: 0px;
 $radius-large: 0px;
@@ -35,6 +38,7 @@ $modal-content-width: 800px;
 @import '~bulma/sass/form/_all';
 
 // Components
+@import '~bulma/sass/components/card';
 @import '~bulma/sass/components/dropdown';
 @import '~bulma/sass/components/menu';
 @import '~bulma/sass/components/navbar';

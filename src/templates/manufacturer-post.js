@@ -136,7 +136,7 @@ class ManufacturerPostTemplate extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="column is-marginless">
+              <div className="column is-marginless is-paddingless">
                 {this.state.groupedProducts.map((productGroup, iterator) => {
                   const groupName = titleCase(
                     productGroup.fieldValue.replace(/\-/g, ' ')

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
-import truncate from 'voca/truncate'
 
 import styles from './product-preview.sass'
 
@@ -13,7 +12,6 @@ class MdProductPreviewTemplate extends React.Component {
   render() {
     const product = this.props.product
     const post = this.props.post
-
     const description = product.description || product.title
 
     const VariableImage = (
@@ -26,10 +24,14 @@ class MdProductPreviewTemplate extends React.Component {
     )
 
     return (
-      <article className={`product-preview ${post.slug}`} id={product.title}>
+      <article className={`product-preview card`} id={product.title}>
         <Link to={product.slug} hrefLang="en" rel="help">
-          <div>{VariableImage}</div>
-          <h3 className="is-size-6">{truncate(product.title, 22)}</h3>
+          <div className="card-image">{VariableImage}</div>
+          <div className="card-content">
+            <div className="media-content" style={{ position: 'absolute' }}>
+              <h3 className="is-size-6">{product.title}</h3>
+            </div>
+          </div>
         </Link>
       </article>
     )
