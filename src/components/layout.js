@@ -50,13 +50,13 @@ export default ({ children }) => (
         <Helmet>
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=G-K0P3YM92N9"
+            src="https://www.googletagmanager.com/gtag/js?id=G-3GR7L59SYP"
           />
           <script>{`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-K0P3YM92N9');
+            gtag('config', 'G-3GR7L59SYP');
           `}</script>
           <html className="has-navbar-fixed-top" lang="en" />
           <meta

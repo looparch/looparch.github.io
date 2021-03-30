@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { GatsbyImage } from 'gatsby-plugin-image'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import titleCase from 'voca/title_case'
 
 import MdProductPreview from '../components/md-product-preview'
@@ -39,6 +39,7 @@ class ManufacturerPostTemplate extends React.Component {
   }
 
   scrollToId(id, e) {
+    console.log(`${id}`, e)
     e.stopPropagation()
     const el = document.getElementById(id)
     window.scrollTo(el.offsetLeft, el.offsetTop + el.offsetHeight)
@@ -109,21 +110,26 @@ class ManufacturerPostTemplate extends React.Component {
                       </a>
                     </p>
                     <p className="control no-print">
-                      <a href="#inquiry" className="button is-secondary">
+                      <Link
+                        to="#inquiry"
+                        className="button is-secondary"
+                        onClick={(e) => this.scrollToId('inquiry', e)}
+                      >
                         <span>Inquire</span>
-                      </a>
+                      </Link>
                     </p>
                   </div>
                   <br />
                   <div className="tags">
                     {this.state.productGroups.map((node, iterator) => {
                       return (
-                        <span
-                          className="tag"
-                          key={iterator}
-                          onClick={(e) => this.scrollToId(node.anchor, e)}
-                        >
-                          <a>{node.name}</a>
+                        <span className="tag" key={iterator}>
+                          <Link
+                            to={`#${node.anchor}`}
+                            onClick={(e) => this.scrollToId(node.anchor, e)}
+                          >
+                            {node.name}
+                          </Link>
                         </span>
                       )
                     })}
@@ -171,6 +177,11 @@ class ManufacturerPostTemplate extends React.Component {
                             className="column is-inline-block is-one-third-desktop is-half-tablet is-half-mobile"
                             style={{ zIndex: '500' }}
                           >
+                            <Helmet>
+                              <script type="application/ld+json">
+                                {JSON.stringify(jsonLd)}
+                              </script>
+                            </Helmet>
                             <MdProductPreview
                               product={fm}
                               post={post}
