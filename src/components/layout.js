@@ -49,6 +49,11 @@ export default ({ children }) => (
       <>
         <Helmet>
           <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon='{"token": "3e787d44c8c64595bf7ec72585e2fe0c"}'
+          ></script>
+          <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-3GR7L59SYP"
           />
