@@ -9,8 +9,6 @@ import FormFormspree from '../components/form-formspree'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-import generateMarkdownProductJSONLD from '../components/SEOProduct/generateMarkdownProductJSONLD'
-
 import styles from './manufacturer-post.sass'
 
 class ManufacturerPostTemplate extends React.Component {
@@ -166,22 +164,12 @@ class ManufacturerPostTemplate extends React.Component {
                       </div>
                       {productGroup.nodes.map((product) => {
                         const fm = product.frontmatter
-                        const jsonLd = generateMarkdownProductJSONLD(
-                          product,
-                          post,
-                          siteMetadata
-                        )
                         return (
                           <div
                             key={product.id}
                             className="column is-inline-block is-one-third-desktop is-half-tablet is-half-mobile"
                             style={{ zIndex: '500' }}
                           >
-                            <Helmet>
-                              <script type="application/ld+json">
-                                {JSON.stringify(jsonLd)}
-                              </script>
-                            </Helmet>
                             <MdProductPreview
                               product={fm}
                               post={post}
