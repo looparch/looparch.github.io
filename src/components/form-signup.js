@@ -18,7 +18,7 @@ class FormSignup extends React.Component {
           target="_blank"
         >
           <div id="mc_embed_signup_scroll">
-            <h2 className="title is-size-5">Subscribe to our mailing list</h2>
+            <h2 className="title is-size-5">Mailing List</h2>
             <div className="field">
               <label className="label is-sr-only" htmlFor="mce-EMAIL">
                 Email Address <span className="asterisk">*</span>

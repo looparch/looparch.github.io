@@ -16,7 +16,7 @@ class FormContact extends React.Component {
       email: '',
       manufacturer: this.props.section || 'Contact Us',
       message: '',
-      // 'g-recaptcha-response': null,
+      'g-recaptcha-response': null,
     }
   }
 
@@ -40,11 +40,11 @@ class FormContact extends React.Component {
 
     e.preventDefault()
 
-    // if (!this.state['g-recaptcha-response']) {
-    //   return document
-    //     .getElementById('recapchta-message')
-    //     .classList.remove('is-hidden')
-    // }
+    if (!this.state['g-recaptcha-response']) {
+      return document
+        .getElementById('recapchta-message')
+        .classList.remove('is-hidden')
+    }
 
     fetch('https://formspree.io/f/mvovekjn', {
       method: 'POST',
