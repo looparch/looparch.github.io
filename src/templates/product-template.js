@@ -85,11 +85,11 @@ class ProductTemplate extends React.Component {
                   />
                 )}
 
-                {frontmatter.description !== 'null' && (
+                {frontmatter.description !== null && (
                   <p>{unescape(unescape(frontmatter.description))}</p>
                 )}
               </div>
-              <p className="control no-print" style={{ marginBottom: '1rem' }}>
+              <p className="control" style={{ marginBottom: '1rem' }}>
                 <a
                   href={frontmatter.href}
                   target="_blank"

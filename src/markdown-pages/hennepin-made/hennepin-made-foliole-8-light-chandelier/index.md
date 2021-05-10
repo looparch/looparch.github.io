@@ -6,8 +6,6 @@ subtitle: '8 Light Chandelier'
 title: 'Foliole 8 Light Chandelier'
 href: 'https://www.hennepinmade.com/shop/8-light-chandelier'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Chandeliers'
 image_secondary: 'img/crystal-natural-wgold.jpg'
 category: 'Chandeliers'

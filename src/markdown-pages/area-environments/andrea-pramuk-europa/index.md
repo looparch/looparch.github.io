@@ -1,16 +1,14 @@
 ---
-image_primary: 'img/AP_Europa.jpg'
-image_secondary: 'img/Europa+Interior.jpg'
-subtitle: 'AP-1  Europa'
-tags:
-  - 'Area Environments'
-  - 'Wall Covering'
-title: 'Europa'
-href: 'http://www.areaenvironments.com/order/ap-europa'
-designer: 'Andrea Pramuk'
-category: 'Wall Covering'
-manufacturer: 'Area Environments'
-description: ''
-slug: '/manufacturers/area-environments/wall-covering/andrea-pramuk-europa'
-date: '2021-02-17'
+image_primary: "img/AP_Europa.jpg"
+image_secondary: "img/Europa+Interior.jpg"
+subtitle: "AP-1  Europa"
+tags: 
+  - "Wall Coverings"
+title: "Europa"
+href: "http://www.areaenvironments.com/order/ap-europa"
+designer: "Andrea Pramuk"
+category: "Wall Coverings"
+manufacturer: "Area Environments"
+slug: "/manufacturers/area-environments/wall-coverings/andrea-pramuk-europa"
+date: "2021-05-07"
 ---

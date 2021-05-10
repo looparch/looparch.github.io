@@ -6,8 +6,6 @@ subtitle: 'Vela'
 title: 'Parallel Vela'
 href: 'https://www.hennepinmade.com/shop/vela'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Vela_Clear_DT_White.jpg'
 category: 'Pendants'

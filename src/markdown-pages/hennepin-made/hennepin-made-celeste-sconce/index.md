@@ -6,8 +6,6 @@ subtitle: 'Sconce'
 title: 'Celeste Sconce'
 href: 'https://www.hennepinmade.com/shop/celeste-sconce'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Sconces'
 image_secondary: 'img/Celeste_Sconce_Short_Fade_Bronze.jpg'
 category: 'Sconces'

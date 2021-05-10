@@ -1,16 +1,14 @@
 ---
-image_primary: 'img/BB+Heartland+Art+WEB.jpg'
-image_secondary: 'img/BB+Heartland+Interior+WEB.jpg'
-subtitle: 'BB-2 Heartland'
-tags:
-  - 'Area Environments'
-  - 'Wall Covering'
-title: 'Heartland'
-href: 'https://www.areaenvironments.com/order/bb-2heartland'
-designer: 'Betsy Bannan'
-category: 'Wall Covering'
-manufacturer: 'Area Environments'
-description: ''
-slug: '/manufacturers/area-environments/wall-covering/betsy-bannan-heartland'
-date: '2021-02-17'
+image_primary: "img/BB+Heartland+Art+WEB.jpg"
+image_secondary: "img/BB+Heartland+Interior+WEB.jpg"
+subtitle: "BB-2 Heartland"
+tags: 
+  - "Wall Coverings"
+title: "Heartland"
+href: "https://www.areaenvironments.com/order/bb-2heartland"
+designer: "Betsy Bannan"
+category: "Wall Coverings"
+manufacturer: "Area Environments"
+slug: "/manufacturers/area-environments/wall-coverings/betsy-bannan-heartland"
+date: "2021-05-07"
 ---

@@ -1,16 +1,14 @@
 ---
-image_primary: 'img/CR+Platinum+Sky+Art.jpg'
-image_secondary: 'img/CR+Platinum+Sky+Interior.jpg'
-subtitle: 'CR-2  Platinum Sky'
-tags:
-  - 'Area Environments'
-  - 'Wall Covering'
-title: 'Platinum Sky'
-href: 'http://www.areaenvironments.com/order/cr-platinum-sky'
-designer: 'Carlos Ramirez'
-category: 'Wall Covering'
-manufacturer: 'Area Environments'
-description: ''
-slug: '/manufacturers/area-environments/wall-covering/carlos-ramirez-platinum-sky'
-date: '2021-02-17'
+image_primary: "img/CR+Platinum+Sky+Art.jpg"
+image_secondary: "img/CR+Platinum+Sky+Interior.jpg"
+subtitle: "CR-2  Platinum Sky"
+tags: 
+  - "Wall Coverings"
+title: "Platinum Sky"
+href: "http://www.areaenvironments.com/order/cr-platinum-sky"
+designer: "Carlos Ramirez"
+category: "Wall Coverings"
+manufacturer: "Area Environments"
+slug: "/manufacturers/area-environments/wall-coverings/carlos-ramirez-platinum-sky"
+date: "2021-05-07"
 ---

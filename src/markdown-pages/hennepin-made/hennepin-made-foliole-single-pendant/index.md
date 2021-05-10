@@ -6,8 +6,6 @@ subtitle: 'Single Pendant'
 title: 'Foliole Single Pendant'
 href: 'https://www.hennepinmade.com/shop/single-pendant'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Foliole_Clear_DarkBronze_EbonyTop_White.jpg'
 category: 'Pendants'

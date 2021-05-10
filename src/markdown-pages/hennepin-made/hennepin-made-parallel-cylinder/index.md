@@ -6,8 +6,6 @@ subtitle: 'Cylinder'
 title: 'Parallel Cylinder'
 href: 'https://www.hennepinmade.com/shop/cylinder'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Cylinder_Sapphire_Champagne_White.jpg'
 category: 'Pendants'

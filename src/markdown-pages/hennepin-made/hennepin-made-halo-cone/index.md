@@ -6,8 +6,6 @@ subtitle: 'Cone'
 title: 'Halo Cone'
 href: 'https://www.hennepinmade.com/shop/cone'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Halo_Cone_Tea_Copper_White.jpg'
 category: 'Pendants'

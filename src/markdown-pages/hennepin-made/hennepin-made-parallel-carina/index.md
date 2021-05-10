@@ -6,8 +6,6 @@ subtitle: 'Carina'
 title: 'Parallel Carina'
 href: 'https://www.hennepinmade.com/shop/carina'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Carina_Bronze_DT_White.jpg'
 category: 'Pendants'

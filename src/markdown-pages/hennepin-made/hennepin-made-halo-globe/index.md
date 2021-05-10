@@ -6,8 +6,6 @@ subtitle: 'Globe'
 title: 'Halo Globe'
 href: 'https://www.hennepinmade.com/shop/globe'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Halo_Globe_Sapphire_Nickel_White.jpg'
 category: 'Pendants'

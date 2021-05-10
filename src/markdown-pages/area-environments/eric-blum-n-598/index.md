@@ -1,16 +1,14 @@
 ---
-image_primary: 'img/eb+598+art.jpg'
-image_secondary: 'img/eb+598+interior.jpg'
-subtitle: 'EB-4  N° 598'
-tags:
-  - 'Area Environments'
-  - 'Wall Covering'
-title: 'N° 598'
-href: 'https://www.areaenvironments.com/order/eb-598'
-designer: 'Eric Blum'
-category: 'Wall Covering'
-manufacturer: 'Area Environments'
-description: ''
-slug: '/manufacturers/area-environments/wall-covering/eric-blum-n-598'
-date: '2021-02-17'
+image_primary: "img/eb+598+art.jpg"
+image_secondary: "img/eb+598+interior.jpg"
+subtitle: "EB-4  N° 598"
+tags: 
+  - "Wall Coverings"
+title: "N° 598"
+href: "https://www.areaenvironments.com/order/eb-598"
+designer: "Eric Blum"
+category: "Wall Coverings"
+manufacturer: "Area Environments"
+slug: "/manufacturers/area-environments/wall-coverings/eric-blum-n-598"
+date: "2021-05-07"
 ---

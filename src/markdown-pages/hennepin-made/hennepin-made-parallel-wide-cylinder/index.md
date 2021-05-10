@@ -6,8 +6,6 @@ subtitle: 'Wide Cylinder'
 title: 'Parallel Wide Cylinder'
 href: 'https://www.hennepinmade.com/shop/wide-cylinder'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/WideCylinder_Clear_Champagne_White.jpg'
 category: 'Pendants'
