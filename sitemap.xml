@@ -1435,7 +1435,6 @@
 <url> <loc>https://looparch.com/manufacturers/rbw/pendants/rbw-latis-cross</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://looparch.com/manufacturers/rbw/pendants/rbw-latis-hex</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://looparch.com/manufacturers/rbw/pendants/rbw-latis-linear</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://looparch.com/manufacturers/rbw/pendants/rbw-latis-linear-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://looparch.com/manufacturers/rbw/pendants/rbw-latis-square</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://looparch.com/manufacturers/rbw/pendants/rbw-latis-zig-zag</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://looparch.com/manufacturers/rbw/sconces/rbw-ledge-round</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -1460,6 +1459,9 @@
 <url> <loc>https://looparch.com/manufacturers/rbw/chandeliers/rbw-pilot-5-tier</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://looparch.com/manufacturers/rbw/sconces/rbw-pilot-sconce-1-head</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://looparch.com/manufacturers/rbw/sconces/rbw-pilot-sconce-2-head</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://looparch.com/manufacturers/rbw/ceiling-flush-mounts/rbw-print-flush-mount</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://looparch.com/manufacturers/rbw/pendants/rbw-print-pendant</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://looparch.com/manufacturers/rbw/sconces/rbw-print-sconce</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://looparch.com/manufacturers/rbw/pendants/rbw-queue-pendant-multi</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://looparch.com/manufacturers/rbw/pendants/rbw-queue-pendant-single</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://looparch.com/manufacturers/rbw/sconces/rbw-queue-sconce</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
