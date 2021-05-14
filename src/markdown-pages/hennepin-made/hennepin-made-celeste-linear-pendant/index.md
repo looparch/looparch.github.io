@@ -6,7 +6,6 @@ subtitle: 'Linear Pendant'
 title: 'Celeste Linear Pendant'
 href: 'https://www.hennepinmade.com/shop/linear-pendant'
 tags:
-  - 'hennepin-made'
   - 'Pendants'
 image_secondary: 'img/Celeste_Linear_Short_Fade_Silver.jpg'
 category: 'Pendants'

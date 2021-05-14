@@ -6,8 +6,6 @@ subtitle: 'Double Sconce'
 title: 'Foliole Double Sconce'
 href: 'https://www.hennepinmade.com/shop/double-sconce'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Sconces'
 image_secondary: 'img/Foliole_DoubleSconce_Smoke_Gunmetal_Ebony.jpg'
 category: 'Sconces'

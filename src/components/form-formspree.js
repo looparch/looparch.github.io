@@ -21,7 +21,7 @@ export default class FormspreeForm extends React.Component {
     return (
       <form
         onSubmit={this.submitForm}
-        action="https://formspree.io/f/mvovekjn"
+        action="https://looparch.com/contact-form/"
         method="POST"
       >
         <div className="field">
@@ -39,6 +39,14 @@ export default class FormspreeForm extends React.Component {
             />
           </div>
         </div>
+        <div className="field is-hidden">
+          <label className="label" htmlFor="email2">
+            Alternative Email
+          </label>
+          <div className="control">
+            <input id="email2" className="input" type="email" name="eml2" />
+          </div>
+        </div>
         <div className="field">
           <label className="label" htmlFor="email">
             Your Email*:
@@ -48,7 +56,7 @@ export default class FormspreeForm extends React.Component {
               id="email"
               className="input"
               type="email"
-              name="email"
+              name="eml"
               autoComplete="email"
               required
             />

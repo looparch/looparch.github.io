@@ -6,8 +6,6 @@ subtitle: 'Single Sconce'
 title: 'Foliole Single Sconce'
 href: 'https://www.hennepinmade.com/shop/single-sconce'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Sconces'
 image_secondary: 'img/Foliole_Sconce_Crystal_WhiteGold_White.jpg'
 category: 'Sconces'

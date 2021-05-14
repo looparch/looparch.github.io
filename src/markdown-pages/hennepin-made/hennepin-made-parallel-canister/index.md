@@ -6,8 +6,6 @@ subtitle: 'Canister'
 title: 'Parallel Canister'
 href: 'https://www.hennepinmade.com/shop/canister'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Canister_Clear_DarkBronze_White.jpg'
 category: 'Pendants'

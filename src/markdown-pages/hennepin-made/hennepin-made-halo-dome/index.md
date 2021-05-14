@@ -6,8 +6,6 @@ subtitle: 'Dome'
 title: 'Halo Dome'
 href: 'https://www.hennepinmade.com/shop/dome'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Halo_Dome_Clear_Copper_White.jpg'
 category: 'Pendants'

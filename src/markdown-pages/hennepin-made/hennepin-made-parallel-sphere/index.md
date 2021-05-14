@@ -6,8 +6,6 @@ subtitle: 'Sphere'
 title: 'Parallel Sphere'
 href: 'https://www.hennepinmade.com/shop/sphere'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Sphere_Olive_Champagne_White.jpg'
 category: 'Pendants'

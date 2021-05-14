@@ -6,8 +6,6 @@ subtitle: 'Teardrop'
 title: 'Parallel Teardrop'
 href: 'https://www.hennepinmade.com/shop/teardrop'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Teardrop_Tea_Champagne_White.jpg'
 category: 'Pendants'

@@ -6,8 +6,6 @@ subtitle: 'Orb'
 title: 'Parallel Orb'
 href: 'https://www.hennepinmade.com/shop/orb'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Orb_Smoke_DarkBronze_White.jpg'
 category: 'Pendants'

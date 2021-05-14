@@ -6,8 +6,6 @@ subtitle: '3 Light Chandelier'
 title: 'Foliole 3 Light Chandelier'
 href: 'https://www.hennepinmade.com/shop/3-light-chandelier'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Chandeliers'
 image_secondary: 'img/Foliole_Chandelier_Smoke_WhiteGold_Natural_White.jpg'
 category: 'Chandeliers'

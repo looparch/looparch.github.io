@@ -6,8 +6,6 @@ subtitle: 'Pendant'
 title: 'Celeste Pendant'
 href: 'https://www.hennepinmade.com/shop/pendant'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Pendants'
 image_secondary: 'img/Celeste_Vertical_Long_Solid_Black.jpg'
 category: 'Pendants'

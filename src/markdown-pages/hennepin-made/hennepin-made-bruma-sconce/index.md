@@ -6,8 +6,6 @@ subtitle: 'Sconce'
 title: 'Bruma Sconce'
 href: 'https://www.hennepinmade.com/shop/bruma-sconce'
 tags:
-  - 'Hennepin Made'
-  - 'Lighting'
   - 'Sconces'
 image_secondary: 'img/BRU-120-00-01-SS.jpg'
 category: 'Sconces'

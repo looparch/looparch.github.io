@@ -7,11 +7,18 @@
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Launch Program",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${file}"
-    }
+      "name": "postProductsToStrapi",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/strapi-adapter/postProductsToStrapi.js",
+      "cwd": "${workspaceFolder}/strapi-adapter"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "convertMdToJson",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/strapi-adapter/convertMdToJson.js",
+      "cwd": "${workspaceFolder}/strapi-adapter"
+    },
   ]
 }
