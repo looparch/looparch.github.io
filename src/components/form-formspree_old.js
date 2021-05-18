@@ -170,6 +170,7 @@ export default class FormspreeForm extends React.Component {
 
     const form = ev.target
     const data = new FormData(form)
+    console.log(data)
     const xhr = new XMLHttpRequest()
     xhr.open(form.method, form.action)
     xhr.setRequestHeader('Accept', 'application/json')

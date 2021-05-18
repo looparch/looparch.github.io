@@ -13,7 +13,7 @@ class FormContact extends React.Component {
     super(props)
     this.state = {
       name: '',
-      email: '',
+      eml: '',
       manufacturer: this.props.section || 'Contact Us',
       message: '',
       'g-recaptcha-response': null,
@@ -46,15 +46,16 @@ class FormContact extends React.Component {
         .classList.remove('is-hidden')
     }
 
-    fetch('https://formspree.io/f/mvovekjn', {
+    fetch('https://looparch.com/contact-form/', {
       method: 'POST',
       headers: { Accept: 'application/json' },
+      redirect: 'follow',
       data: encode({
         // 'form-name': form.getAttribute('name'),
         ...this.state,
       }),
     })
-      .then(() => {
+      .then((res) => {
         navigate(form.getAttribute('action'))
       })
       .catch((error) => console.log(error))
@@ -76,7 +77,7 @@ class FormContact extends React.Component {
       >
         <div className="field">
           <label className="label" htmlFor="name">
-            Your Name:
+            Your Name*:
           </label>
           <div className="control">
             <input
@@ -92,14 +93,14 @@ class FormContact extends React.Component {
         </div>
         <div className="field">
           <label className="label" htmlFor="email">
-            Your Email:
+            Your Email*:
           </label>
           <div className="control">
             <input
               id="email"
               className="input"
               type="email"
-              name="email"
+              name="eml"
               autoComplete="email"
               onChange={this.handleChange}
               required
@@ -171,7 +172,7 @@ class FormContact extends React.Component {
             />
           </div>
         </div>
-        {/* <div className="field">
+        <div className="field">
           <Recaptcha
             ref="recaptcha"
             sitekey={recaptchaKey}
@@ -184,7 +185,7 @@ class FormContact extends React.Component {
           >
             Recaptcha is required.
           </div>
-        </div> */}
+        </div>
         <div className="field">
           <div className="control">
             <button type="submit" className="button is-link">

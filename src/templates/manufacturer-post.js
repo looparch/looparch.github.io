@@ -5,7 +5,7 @@ import { graphql, Link } from 'gatsby'
 import titleCase from 'voca/title_case'
 
 import MdProductPreview from '../components/md-product-preview'
-import FormFormspree from '../components/form-formspree'
+import FormContact from '../components/form-contact'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
@@ -198,7 +198,7 @@ class ManufacturerPostTemplate extends React.Component {
                   >
                     <h3 className="title is-size-4">{post.title} Inquiries</h3>
                   </div>
-                  <FormFormspree
+                  <FormContact
                     section={post.title}
                     manufacturers={manufacturers}
                     recaptchaKey={siteMetadata.recaptchaKey}
