@@ -48,17 +48,20 @@ class FormContact extends React.Component {
 
     fetch('https://looparch.com/contact-form/', {
       method: 'POST',
-      headers: { Accept: 'application/json' },
-      redirect: 'follow',
-      data: encode({
-        // 'form-name': form.getAttribute('name'),
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
         ...this.state,
       }),
     })
       .then((res) => {
-        navigate(form.getAttribute('action'))
+        if (res.status === 200) {
+          document.getElementById('send-button').classList.add('is-hidden')
+          document.getElementById('thank-you').classList.remove('is-hidden')
+        } else {
+          document.getElementById('error').classList.remove('is-hidden')
+        }
       })
-      .catch((error) => console.log(error))
+      .catch((error) => console.log('error: ', error))
   }
 
   render() {
@@ -186,12 +189,21 @@ class FormContact extends React.Component {
             Recaptcha is required.
           </div>
         </div>
-        <div className="field">
+        <div id="send-button" className="field">
           <div className="control">
             <button type="submit" className="button is-link">
               Send
             </button>
           </div>
+        </div>
+        <div id="thank-you" className="is-hidden is-inline-block notification">
+          <p>Thank you! We'll get back to you soon.</p>
+        </div>
+        <div id="error" className="is-hidden is-inline-block notification">
+          <p>
+            Oops! Something went wrong. Please email us at{' '}
+            <a href="mailto:sales@looparch.com">sales@looparch.com</a>
+          </p>
         </div>
       </form>
     )
