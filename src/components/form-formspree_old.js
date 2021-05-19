@@ -8,6 +8,7 @@ export default class FormspreeForm extends React.Component {
     this.handleRecaptcha = this.handleRecaptcha.bind(this)
     this.state = {
       status: '',
+      statusPayload: {},
       'g-recaptcha-response': null,
     }
   }
@@ -169,17 +170,18 @@ export default class FormspreeForm extends React.Component {
 
     const form = ev.target
     const data = new FormData(form)
-    // data.delete('g-recaptcha-response')
+    console.log(data)
     const xhr = new XMLHttpRequest()
     xhr.open(form.method, form.action)
     xhr.setRequestHeader('Accept', 'application/json')
     xhr.onreadystatechange = () => {
       if (xhr.readyState !== XMLHttpRequest.DONE) return
       if (xhr.status === 200) {
+        console.log(xhr)
         form.reset()
-        this.setState({ status: 'SUCCESS' })
+        this.setState({ status: 'SUCCESS', statusPayload: xhr })
       } else {
-        this.setState({ status: 'ERROR' })
+        this.setState({ status: 'ERROR', statusPayload: xhr })
       }
     }
     xhr.send(data)
