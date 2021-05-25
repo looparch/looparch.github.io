@@ -27,6 +27,8 @@ module.exports = {
   flags: {
     FAST_DEV: true,
     PARALLEL_SOURCING: true,
+    PRESERVE_WEBPACK_CACHE: true,
+    PRESERVE_FILE_DOWNLOAD_CACHE: true,
   },
   siteMetadata: {
     author: 'Loop Architectural Materials',
@@ -76,6 +78,7 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -123,28 +126,6 @@ module.exports = {
         icon_options: {
           purpose: `any maskable`,
         },
-      },
-    },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        output: `/sitemap.xml`,
-        exclude: [`/thanks`],
-        query: `
-          {
-            site {
-              siteMetadata {
-                siteUrl
-              }
-            }
-            allSitePage {
-              edges {
-                node {
-                  path
-                }
-              }
-            }
-        }`,
       },
     },
     {
