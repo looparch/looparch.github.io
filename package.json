@@ -18,14 +18,14 @@
     "gatsby-plugin-react-helmet": "^4.1.0",
     "gatsby-plugin-sass": "^4.1.0",
     "gatsby-plugin-sharp": "^3.1.2",
-    "gatsby-plugin-sitemap": "^3.1.0",
-    "gatsby-remark-images-contentful": "^3.1.0",
+    "gatsby-plugin-sitemap": "^4.1.0",
+    "gatsby-remark-images-contentful": "^4.2.1",
     "gatsby-source-contentful": "^5.1.2",
     "gatsby-source-filesystem": "^3.1.0",
-    "gatsby-transformer-remark": "^3.1.0",
+    "gatsby-transformer-remark": "^4.2.0",
     "gatsby-transformer-sharp": "^3.1.0",
     "graphql": "^15.0.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-google-recaptcha": "^2.0.1",
@@ -38,14 +38,13 @@
   "devDependencies": {
     "axios": "^0.21.1",
     "babel-eslint": "^10.0.1",
-    "contentful": "^8.2.0",
-    "contentful-import": "^8.0.0",
+    "contentful": "^8.3.5",
+    "contentful-import": "^8.1.6",
     "cross-env": "^7.0.3",
-    "eslint": "^7.0.0",
-    "eslint-plugin-react": "^7.13.0",
+    "eslint": "^7.26.0",
+    "eslint-plugin-react": "^7.23.2",
     "form-data": "^4.0.0",
     "gatsby": "^3.1.2",
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.21",
     "gh-pages": "^3.1.0",
     "markdown-to-json": "^0.5.4",
     "prettier": "^2.0.5"
@@ -74,7 +73,7 @@
     "heroku-postbuild": "gatsby build"
   },
   "resolutions": {
-    "yargs-parser": "20.2.1"
+    "yargs-parser": "20.2.7"
   },
   "peerDependencies": {
     "gatsby": ">=2"
