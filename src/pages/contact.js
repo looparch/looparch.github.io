@@ -1,11 +1,11 @@
 import React from 'react'
-import Layout from '../components/layout'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 
-import GoogleMap from '../components/map'
-import FormContact from '../components/form-contact'
-import SEO from '../components/seo'
+import Layout from '../components/Layout'
+import GoogleMap from '../components/GoogleMap'
+import FormContact from '../components/FormContact'
+import Seo from '../components/Seo'
 
 class ContactPage extends React.Component {
   constructor(props) {
@@ -38,7 +38,7 @@ class ContactPage extends React.Component {
       <Layout>
         <div className="content-section">
           <Helmet title={`${siteTitle} | Contact Us`} />
-          <SEO
+          <Seo
             pagePath={`contact`}
             postNode={postNode}
             pageSEO

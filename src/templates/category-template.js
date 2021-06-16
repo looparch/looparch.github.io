@@ -5,7 +5,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import { graphql } from 'gatsby'
 import truncate from 'voca/truncate'
 
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 
 // import styles from '../components/product-preview.sass'
 

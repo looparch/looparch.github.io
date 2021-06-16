@@ -1,9 +1,10 @@
 import React from 'react'
-import Layout from '../components/layout'
+
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 
-import SearchComponent from '../components/search'
+import Layout from '../components/Layout'
+import SearchComponent from '../components/SearchComponent'
 class SearchPage extends React.Component {
   constructor(props) {
     super(props)

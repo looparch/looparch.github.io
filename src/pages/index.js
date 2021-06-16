@@ -1,12 +1,12 @@
 import React from 'react'
-import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import { graphql } from 'gatsby'
 
-import Hero from '../components/hero'
-import SEO from '../components/seo'
+import Layout from '../components/Layout'
+import IndexHero from '../components/IndexHero'
+import Seo from '../components/Seo'
 
 class RootIndex extends React.Component {
   render() {
@@ -25,7 +25,7 @@ class RootIndex extends React.Component {
     return (
       <Layout>
         <div className="content-section">
-          <SEO
+          <Seo
             pagePath={``}
             postNode={postNode}
             pageSEO
@@ -35,7 +35,7 @@ class RootIndex extends React.Component {
           <Helmet title={siteTitle}>
             <meta property="og:type" content="website" />
           </Helmet>
-          <Hero posts={posts} />
+          <IndexHero posts={posts} />
 
           <section className="section">
             <div className="container">
@@ -116,7 +116,11 @@ export const pageQuery = graphql`
             }
           }
           heroImage {
-            gatsbyImageData(height: 600, layout: FULL_WIDTH)
+            localFile {
+              childImageSharp {
+                gatsbyImageData(height: 1200, layout: FULL_WIDTH)
+              }
+            }
           }
           publishDate(formatString: "MMMM Do, YYYY")
           slug

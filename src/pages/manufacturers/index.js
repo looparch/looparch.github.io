@@ -1,10 +1,11 @@
 import React from 'react'
-import Layout from '../../components/layout'
+
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 
-import ManufacturerPreview from '../../components/manufacturer-preview'
-import SEO from '../../components/seo'
+import Layout from '../../components/Layout'
+import ManufacturerPreview from '../../components/ManufacturerPreview'
+import Seo from '../../components/Seo'
 
 import styles from './index.sass'
 
@@ -26,7 +27,7 @@ class ManufacturersIndex extends React.Component {
       <Layout>
         <div className="content-section">
           <Helmet title={`${siteTitle} | Our Manufacturers`} />
-          <SEO
+          <Seo
             pagePath={`manufacturers`}
             postNode={postNode}
             pageSEO

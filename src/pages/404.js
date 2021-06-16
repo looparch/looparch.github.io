@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 
-import Search from '../components/search'
+import Layout from '../components/Layout'
+import SearchComponent from '../components/SearchComponent'
 
 class FourOhFourPage extends React.Component {
   constructor(props) {
@@ -26,7 +26,7 @@ class FourOhFourPage extends React.Component {
                 Try typing a term in the search box to find something. For
                 example: 'wood' or 'acoustic'.
               </p>
-              <Search
+              <SearchComponent
                 data={this.props.data}
                 search={this.props.location.search}
                 lng="en"

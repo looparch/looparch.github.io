@@ -11,6 +11,7 @@ try {
   contentfulConfig = {
     spaceId: process.env.CONTENTFUL_SPACE_ID,
     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    downloadLocal: true,
   }
 } finally {
   const { spaceId, accessToken } = contentfulConfig
@@ -29,6 +30,7 @@ module.exports = {
     PARALLEL_SOURCING: true,
     PRESERVE_WEBPACK_CACHE: true,
     PRESERVE_FILE_DOWNLOAD_CACHE: true,
+    LMDB_STORE: true,
   },
   siteMetadata: {
     author: 'Loop Architectural Materials',
