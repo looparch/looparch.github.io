@@ -21,6 +21,9 @@ class Navigation extends React.Component {
           className="navbar loop-navbar is-fixed-top"
           role="navigation"
           aria-label="main navigation"
+          style={{
+            borderBottom: `1px solid #EEEEEE`
+          }}
         >
           <div className="container">
             <div className="navbar-brand">

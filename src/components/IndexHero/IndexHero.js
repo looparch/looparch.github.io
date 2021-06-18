@@ -9,27 +9,32 @@ const IndexHero = ({ posts }) => {
   console.log(article)
 
   return (
-    <section className="hero is-medium is-light is-bold">
-      {/* <CarouselCss posts={posts} /> */}
-      <div className="carousel-preview">
-        <GatsbyImage
-          image={article.heroImage.localFile.childImageSharp.gatsbyImageData}
-          alt={article.title}
-          className="carousel-preview-image"
-        />
-        <div
-          id="preview-content"
-          className="carousel-preview-content has-text-centered content"
-        >
-          <h3 className="title is-size-1">
-            <Link to={`/articles/${article.slug}`}>{article.title}</Link>
-          </h3>
-          <div
-            className="subtitle"
-            dangerouslySetInnerHTML={{
-              __html: article.description.childMarkdownRemark.html,
-            }}
-          />
+    <div
+      className="hero is-large is-relative"
+      style={{
+        backgroundImage: `url(${article.heroImage.gatsbyImageData.images.fallback.src})`,
+      }}
+    >
+      <section className="hero-body">
+        {/* <CarouselCss posts={posts} /> */}
+
+        <div className="is-overlay" style={{ background: 'rgba(0,0,0,.25)' }} />
+        <div className="container has-text-centered">
+          <h1 className="title is-size-1">
+            <Link
+              to={`/articles/${article.slug}`}
+              className="has-text-white has-text-weight-bold has-text-white"
+              style={{ letterSpacing: '-.0625rem' }}
+            >
+              {article.title}
+            </Link>
+          </h1>
+          <p
+            className="subtitle is-size-3 has-text-white has-text-weight-light"
+            style={{ letterSpacing: '-.0625rem' }}
+          >
+            {article.description.childMarkdownRemark.rawMarkdownBody}
+          </p>
           <Link
             to={`/articles/${article.slug}`}
             className="button is-primary"
@@ -38,9 +43,8 @@ const IndexHero = ({ posts }) => {
             Read More
           </Link>
         </div>
-        <div className="carousel-preview-dark-overlay" />
-      </div>
-    </section>
+      </section>
+    </div>
   )
 }
 
