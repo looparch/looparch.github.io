@@ -37,7 +37,7 @@ class RootIndex extends React.Component {
           </Helmet>
           <IndexHero posts={posts} />
 
-          <section className="hero">
+          <section className="hero is-white">
             <div className="hero-body">
               <div className="container">
                 <h2 className="title">Pioneering Materials</h2>
@@ -54,7 +54,7 @@ class RootIndex extends React.Component {
             </div>
           </section>
 
-          <section className="hero">
+          <section className="hero is-white">
             <div className="hero-body">
               <div className="container">
                 <h2 className="title">Project Diversity</h2>
@@ -68,7 +68,7 @@ class RootIndex extends React.Component {
             </div>
           </section>
 
-          <section className="hero">
+          <section className="hero is-white">
             <div className="hero-body">
               <div className="container">
                 <h2 className="title">End to End Support</h2>
@@ -81,7 +81,7 @@ class RootIndex extends React.Component {
               </div>
             </div>
           </section>
-          <section className="hero">
+          <section className="hero is-white">
             <div className="hero-body">
               <div className="container">
                 <h2 className="title">Our Manufacturers</h2>
