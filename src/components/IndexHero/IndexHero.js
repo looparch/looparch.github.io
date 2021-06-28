@@ -1,18 +1,23 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 const IndexHero = ({ posts }) => {
   const article = posts[0].node
 
   return (
-    <div
-      className="hero is-large is-relative"
-      style={{
-        backgroundImage: `url(${article.heroImage.gatsbyImageData.images.fallback.src})`,
-      }}
-    >
+    <div className="hero is-large is-relative" style={{ overflow: 'hidden' }}>
+      <GatsbyImage
+        image={article.heroImage.gatsbyImageData}
+        alt={article.heroImage.title}
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+        }}
+      />
       <section className="hero-body">
-        <div className="is-overlay" style={{ background: 'rgba(0,0,0,.25)' }} />
+        <div className="is-overlay" style={{ background: 'rgba(0,0,0,.3)' }} />
         <div className="container has-text-centered">
           <h1 className="title is-size-1">
             <Link
@@ -22,9 +27,7 @@ const IndexHero = ({ posts }) => {
               {article.title}
             </Link>
           </h1>
-          <p
-            className="subtitle is-size-3 has-text-white has-text-weight-light"
-          >
+          <p className="subtitle is-size-3 has-text-white has-text-weight-light">
             {article.description.childMarkdownRemark.rawMarkdownBody}
           </p>
           <Link

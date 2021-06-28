@@ -129,11 +129,6 @@ export const pageQuery = graphql`
           }
           heroImage {
             gatsbyImageData
-            localFile {
-              childImageSharp {
-                gatsbyImageData(layout: FIXED)
-              }
-            }
           }
           publishDate(formatString: "MMMM Do, YYYY")
           slug

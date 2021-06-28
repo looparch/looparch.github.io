@@ -37,7 +37,6 @@ class ManufacturerPostTemplate extends React.Component {
   }
 
   scrollToId(id, e) {
-    console.log(`${id}`, e)
     e.stopPropagation()
     const el = document.getElementById(id)
     window.scrollTo(el.offsetLeft, el.offsetTop + el.offsetHeight)
@@ -183,7 +182,6 @@ class ManufacturerPostTemplate extends React.Component {
                   )
                 })}
                 <section
-                  id="inquiry"
                   className="column is-full inquiry-section no-print"
                 >
                   <div
@@ -196,7 +194,7 @@ class ManufacturerPostTemplate extends React.Component {
                       padding: '0.75rem 0.75rem 0.75rem 0',
                     }}
                   >
-                    <h3 className="title is-size-4">{post.title} Inquiries</h3>
+                    <h3 id="inquiry" className="title is-size-4">{post.title} Inquiries</h3>
                   </div>
                   <FormContact
                     section={post.title}
