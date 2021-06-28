@@ -3,8 +3,8 @@ import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/Layout'
+import Seo from '../components/Seo'
 
 class BlogPostTemplate extends React.Component {
   componentDidMount() {
@@ -25,7 +25,7 @@ class BlogPostTemplate extends React.Component {
       <Layout>
         <div className="article content-section">
           <Helmet title={`${post.title} | ${siteTitle}`} />
-          <SEO
+          <Seo
             pagePath={`articles/${post.slug}`}
             postNode={post}
             postSEO

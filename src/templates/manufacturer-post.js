@@ -4,10 +4,10 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import { graphql, Link } from 'gatsby'
 import titleCase from 'voca/title_case'
 
-import MdProductPreview from '../components/md-product-preview'
-import FormContact from '../components/form-contact'
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import MdProductPreview from '../components/MdProductPreview'
+import FormContact from '../components/FormContact'
+import Layout from '../components/Layout'
+import Seo from '../components/Seo'
 
 import styles from './manufacturer-post.sass'
 
@@ -37,7 +37,6 @@ class ManufacturerPostTemplate extends React.Component {
   }
 
   scrollToId(id, e) {
-    console.log(`${id}`, e)
     e.stopPropagation()
     const el = document.getElementById(id)
     window.scrollTo(el.offsetLeft, el.offsetTop + el.offsetHeight)
@@ -60,7 +59,7 @@ class ManufacturerPostTemplate extends React.Component {
     return (
       <Layout>
         <Helmet title={`${post.title} | ${siteTitle}`} />
-        <SEO
+        <Seo
           pageSEO
           pagePath={`manufacturers/${post.slug}`}
           siteMetadata={siteMetadata}
@@ -183,7 +182,6 @@ class ManufacturerPostTemplate extends React.Component {
                   )
                 })}
                 <section
-                  id="inquiry"
                   className="column is-full inquiry-section no-print"
                 >
                   <div
@@ -196,7 +194,7 @@ class ManufacturerPostTemplate extends React.Component {
                       padding: '0.75rem 0.75rem 0.75rem 0',
                     }}
                   >
-                    <h3 className="title is-size-4">{post.title} Inquiries</h3>
+                    <h3 id="inquiry" className="title is-size-4">{post.title} Inquiries</h3>
                   </div>
                   <FormContact
                     section={post.title}

@@ -1,0 +1,40 @@
+
+
+$inter: "Inter", "Helvetica Neue", "Helvetica", BlinkMacSystemFont, -apple-system, sans-serif
+$intervar: "Inter var", "Helvetica Neue", "Helvetica", BlinkMacSystemFont, -apple-system, sans-serif
+
+$family-sans-serif: "Helvetica Neue", "Helvetica", BlinkMacSystemFont, -apple-system, sans-serif
+
+$card-content-padding: 0rem 0rem 2.25rem 0rem
+$card-shadow: none
+$card-radius: 2px
+$radius-small: 4px
+$radius: 4px
+$radius-large: 4px
+$navbar-height: 4rem
+$primary: #3b7441
+$link: $primary
+$white: #FFFFFF
+$white-bis: hsl(0, 0%, 98%) !default
+$modal-content-width: 800px
+$footer-background-color: $white-bis
+
+// Core Overrides
+html,
+body
+  background-color: $white-bis
+
+.section
+  background-color: $white
+
+.content-section
+  .section:first-of-type
+    padding-top: 2rem
+
+.no-print
+  @media print
+    display: none
+
+::selection
+  background: $primary
+  color: $white

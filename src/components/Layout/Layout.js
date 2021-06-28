@@ -2,12 +2,12 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Navigation from '../components/navigation'
-import Footer from '../components/footer.js'
+import Navigation from '../Navigation'
+import Footer from '../Footer'
 
-import base from './base.scss'
+import base from '../../styles/base.sass'
 
-export default ({ children }) => (
+const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query LayoutQuery {
@@ -84,3 +84,5 @@ export default ({ children }) => (
     )}
   />
 )
+
+export default Layout

@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from '../components/layout'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 
-import ArticlePreview from '../components/article-preview'
-import SEO from '../components/seo'
+import Layout from '../components/Layout'
+import ArticlePreview from '../components/ArticlePreview'
+import Seo from '../components/Seo'
 
 class ArticleIndex extends React.Component {
   render() {
@@ -24,7 +24,7 @@ class ArticleIndex extends React.Component {
       <Layout>
         <div className="content-section">
           <Helmet title={`${siteTitle} | Articles`} />
-          <SEO
+          <Seo
             pageSEO
             pagePath={`articles`}
             postNode={postNode}

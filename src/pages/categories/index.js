@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../../components/layout'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
@@ -7,8 +6,9 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 
 import kebabCase from 'voca/kebab_case'
 
-import CategoryPreview from '../../components/category-preview'
-import SEO from '../../components/seo'
+import Layout from '../../components/Layout'
+import CategoryPreview from '../../components/CategoryPreview'
+import Seo from '../../components/Seo'
 
 class CategoriesIndex extends React.Component {
   render() {
@@ -29,7 +29,7 @@ class CategoriesIndex extends React.Component {
       <Layout>
         <div className="content-section">
           <Helmet title={`${siteTitle} | Product Categories`} />
-          <SEO
+          <Seo
             pagePath={`categories`}
             postNode={postNode}
             pageSEO

@@ -3,9 +3,9 @@ import { graphql } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import { Helmet } from 'react-helmet'
 
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import generateMarkdownProductJSONLD from '../components/SEOProduct/generateMarkdownProductJSONLD'
-import SEO from '../components/seo'
+import Seo from '../components/Seo'
 
 class ProductTemplate extends React.Component {
   constructor(props) {
@@ -37,7 +37,7 @@ class ProductTemplate extends React.Component {
         <Helmet
           title={`${frontmatter.manufacturer} ${frontmatter.title} | ${site.siteMetadata.title}`}
         />
-        <SEO
+        <Seo
           productSEO
           pagePath={`manufacturers/${manufacturer.slug}`}
           siteMetadata={site.siteMetadata}
