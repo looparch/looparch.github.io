@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import { Helmet } from 'react-helmet'
 
 class GoogleMap extends React.Component {
@@ -11,7 +13,7 @@ class GoogleMap extends React.Component {
     const LOOPARCH_MAPS_KEY = this.props.API_KEY
 
     return (
-      <section>
+      <>
         <Helmet>
           <script type="text/javascript">
             {`
@@ -64,9 +66,17 @@ class GoogleMap extends React.Component {
             }}
           />
         </div>
-      </section>
+      </>
     )
   }
+}
+
+GoogleMap.propTypes = {
+  'API_KEY': PropTypes.string.isRequired,
+}
+
+GoogleMap.defaultProps = {
+  API_KEY: null,
 }
 
 export default GoogleMap

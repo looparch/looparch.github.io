@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
@@ -32,6 +34,16 @@ class ArticlePreview extends React.Component {
       </article>
     )
   }
+}
+
+ArticlePreview.propTypes = {
+  article: PropTypes.object.isRequired,
+  siteMetadata: PropTypes.object.isRequired,
+}
+
+ArticlePreview.defaultProps = {
+  article: {},
+  siteMetadata: {},
 }
 
 export default ArticlePreview

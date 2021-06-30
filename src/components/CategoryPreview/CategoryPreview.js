@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
@@ -50,6 +52,14 @@ class CategoryPreview extends React.Component {
       </div>
     )
   }
+}
+
+CategoryPreview.propTypes = {
+  category: PropTypes.object.isRequired,
+}
+
+CategoryPreview.defaultProps = {
+  category: {},
 }
 
 export default CategoryPreview

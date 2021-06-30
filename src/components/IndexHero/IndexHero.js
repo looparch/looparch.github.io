@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
@@ -41,6 +43,14 @@ const IndexHero = ({ posts }) => {
       </section>
     </div>
   )
+}
+
+IndexHero.propTypes = {
+  posts: PropTypes.array.isRequired
+}
+
+IndexHero.defaultProps = {
+  posts: [{}],
 }
 
 export default IndexHero
