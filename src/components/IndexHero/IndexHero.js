@@ -9,7 +9,7 @@ const IndexHero = ({ posts }) => {
     <div className="hero is-large is-relative" style={{ overflow: 'hidden' }}>
       <GatsbyImage
         image={article.heroImage.gatsbyImageData}
-        alt={article.heroImage.title}
+        alt={`${article.title} Background Image`}
         style={{
           position: 'absolute',
           width: '100%',
