@@ -134,7 +134,7 @@ class Navigation extends React.Component {
 }
 
 Navigation.propTypes = {
-  manufacturers: PropTypes.array
+  manufacturers: PropTypes.array.isRequired
 }
 
 Navigation.defaultProps = {
