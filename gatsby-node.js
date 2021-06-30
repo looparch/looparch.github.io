@@ -5,13 +5,13 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   return new Promise((resolve, reject) => {
-    const blogPost = path.resolve('./src/templates/blog-post.js')
-    const manufacturerPost = path.resolve(
-      './src/templates/manufacturer-post.js'
+    const BlogPost = path.resolve('./src/templates/BlogPost.js')
+    const ManufacturerPost = path.resolve(
+      './src/templates/ManufacturerPost.js'
     )
-    const productTemplate = path.resolve('./src/templates/product-template.js')
-    const categoryTemplate = path.resolve(
-      './src/templates/category-template.js'
+    const ProductTemplate = path.resolve('./src/templates/ProductTemplate.js')
+    const CategoryTemplate = path.resolve(
+      './src/templates/CategoryTemplate.js'
     )
 
     resolve(
@@ -68,7 +68,7 @@ exports.createPages = ({ graphql, actions }) => {
         posts.forEach((post, index) => {
           createPage({
             path: `/articles/${post.node.slug}/`,
-            component: blogPost,
+            component: BlogPost,
             context: {
               slug: post.node.slug,
             },
@@ -77,7 +77,7 @@ exports.createPages = ({ graphql, actions }) => {
         manufacturers.forEach((post, index) => {
           createPage({
             path: `/manufacturers/${post.node.slug}/`,
-            component: manufacturerPost,
+            component: ManufacturerPost,
             context: {
               slug: post.node.slug,
               title: post.node.title,
@@ -87,7 +87,7 @@ exports.createPages = ({ graphql, actions }) => {
         products.forEach((product, index) => {
           createPage({
             path: product.node.frontmatter.slug,
-            component: productTemplate,
+            component: ProductTemplate,
             context: {
               // additional data can be passed via context
               slug: product.node.frontmatter.slug,
@@ -98,7 +98,7 @@ exports.createPages = ({ graphql, actions }) => {
         categories.forEach((category, index) => {
           createPage({
             path: `categories/${voca.kebabCase(category)}`,
-            component: categoryTemplate,
+            component: CategoryTemplate,
             context: {
               category,
             },

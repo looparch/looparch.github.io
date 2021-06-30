@@ -8,11 +8,11 @@ import Seo from '../components/Seo'
 
 class BlogPostTemplate extends React.Component {
   componentDidMount() {
-    const h2s = document.getElementById('postBody').getElementsByTagName('h2')
+    // const h2s = document.getElementById('postBody').getElementsByTagName('h2')
 
-    for (var i = h2s.length - 1; i >= 0; i--) {
-      h2s[i].classList.add('title')
-    }
+    // for (var i = h2s.length - 1; i >= 0; i--) {
+    //   h2s[i].classList.add('title')
+    // }
   }
 
   render() {
