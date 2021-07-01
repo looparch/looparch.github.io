@@ -33,8 +33,7 @@
     "react-helmet": "^6.0.0",
     "react-router-dom": "^5.0.1",
     "system-font-css": "^2.0.2",
-    "voca": "^1.4.0",
-    "yargs-parser": "20.2.7"
+    "voca": "^1.4.0"
   },
   "devDependencies": {
     "axios": "^0.21.1",
@@ -74,10 +73,8 @@
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix *.js bin/*.js",
     "heroku-postbuild": "gatsby build"
   },
-  "resolutions": {
-    "yargs-parser": "20.2.7"
-  },
+  "resolutions": {},
   "peerDependencies": {
-    "gatsby": ">=2"
+    "gatsby": ">=3"
   }
 }
