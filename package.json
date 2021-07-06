@@ -1,7 +1,7 @@
 {
   "name": "loop-gatsby",
   "description": "Loop Architectural Website",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": "Jeff Adkins <jeff@readypress.com>",
   "bugs": {
     "url": "https://github.com/looparch/looparch.github.io/issues"
