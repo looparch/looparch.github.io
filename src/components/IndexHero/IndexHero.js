@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
@@ -9,7 +11,7 @@ const IndexHero = ({ posts }) => {
     <div className="hero is-large is-relative" style={{ overflow: 'hidden' }}>
       <GatsbyImage
         image={article.heroImage.gatsbyImageData}
-        alt={article.heroImage.title}
+        alt={`${article.title} Background Image`}
         style={{
           position: 'absolute',
           width: '100%',
@@ -41,6 +43,14 @@ const IndexHero = ({ posts }) => {
       </section>
     </div>
   )
+}
+
+IndexHero.propTypes = {
+  posts: PropTypes.array.isRequired
+}
+
+IndexHero.defaultProps = {
+  posts: [{}],
 }
 
 export default IndexHero

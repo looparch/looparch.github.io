@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import { Link } from 'gatsby'
 
 import FormSignup from '../FormSignup'
@@ -112,6 +114,16 @@ class Footer extends React.Component {
       </footer>
     )
   }
+}
+
+Footer.propTypes = {
+  manufacturers: PropTypes.array.isRequired,
+  articles: PropTypes.array.isRequired,
+}
+
+Footer.defaultProps = {
+  manufacturers: [{}],
+  articles: [{}],
 }
 
 export default Footer

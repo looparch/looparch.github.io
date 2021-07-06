@@ -1,9 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import kebabCase from 'voca/kebab_case'
-
-// import styles from './navigation.sass'
 
 class Navigation extends React.Component {
   toggleNav() {
@@ -132,6 +131,14 @@ class Navigation extends React.Component {
       </>
     )
   }
+}
+
+Navigation.propTypes = {
+  manufacturers: PropTypes.array.isRequired
+}
+
+Navigation.defaultProps = {
+  manufacturers: null,
 }
 
 export default Navigation

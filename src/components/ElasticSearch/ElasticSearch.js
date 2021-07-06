@@ -84,6 +84,7 @@ export default class ElasticSearch extends Component {
       </div>
     )
   }
+
   getOrCreateIndex = () =>
     this.index
       ? this.index

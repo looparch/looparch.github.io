@@ -9,8 +9,6 @@ import FormContact from '../components/FormContact'
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
 
-import styles from './manufacturer-post.sass'
-
 class ManufacturerPostTemplate extends React.Component {
   constructor(props) {
     super(props)
@@ -31,7 +29,6 @@ class ManufacturerPostTemplate extends React.Component {
     this.state = {
       windowHeight: 1000,
       productGroups: uniqueProductGroups,
-      iterableGroups: firstGroup,
       groupedProducts,
     }
   }
@@ -40,10 +37,6 @@ class ManufacturerPostTemplate extends React.Component {
     e.stopPropagation()
     const el = document.getElementById(id)
     window.scrollTo(el.offsetLeft, el.offsetTop + el.offsetHeight)
-  }
-
-  componentDidMount() {
-    this.setState({ iterableGroups: this.state.groupedProducts })
   }
 
   render() {

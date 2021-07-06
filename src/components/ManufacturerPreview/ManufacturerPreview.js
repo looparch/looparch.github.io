@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import { Link } from 'gatsby'
 import { GatsbyImage } from 'gatsby-plugin-image'
 
@@ -25,5 +27,13 @@ const ManufacturerPreview = ({ article }) => (
     </div>
   </div>
 )
+
+ManufacturerPreview.propTypes = {
+  article: PropTypes.object.isRequired,
+}
+
+ManufacturerPreview.defaultProps = {
+  article: {},
+}
 
 export default ManufacturerPreview
